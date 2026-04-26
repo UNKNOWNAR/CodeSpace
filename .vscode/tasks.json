@@ -12,7 +12,7 @@
                     ]
                 }
             },
-            "command": "if \"${fileExtname}\" == \".cpp\" ( g++ -std=c++17 -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\" \"${file}\" && \"${fileDirname}\\${fileBasenameNoExtension}.exe\" < \"e:\\WorkSpace\\C++_Programs\\input.txt\" > \"e:\\WorkSpace\\C++_Programs\\output.txt\" & del \"${fileDirname}\\${fileBasenameNoExtension}.exe\" ) else if \"${fileExtname}\" == \".java\" ( javac \"${file}\" && java -cp \"${fileDirname}\" \"${fileBasenameNoExtension}\" < \"e:\\WorkSpace\\C++_Programs\\input.txt\" > \"e:\\WorkSpace\\C++_Programs\\output.txt\" & del \"${fileDirname}\\${fileBasenameNoExtension}*.class\" ) else ( echo Unsupported file type )",
+            "command": "if \"${fileExtname}\" == \".cpp\" ( g++ -std=c++17 -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\" \"${file}\" && \"${fileDirname}\\${fileBasenameNoExtension}.exe\" < \"${workspaceFolder}\\input.txt\" > \"${workspaceFolder}\\output.txt\" & del \"${fileDirname}\\${fileBasenameNoExtension}.exe\" ) else if \"${fileExtname}\" == \".java\" ( javac \"${file}\" && java -cp \"${fileDirname}\" \"${fileBasenameNoExtension}\" < \"${workspaceFolder}\\input.txt\" > \"${workspaceFolder}\\output.txt\" & del \"${fileDirname}\\${fileBasenameNoExtension}*.class\" ) else ( echo Unsupported file type )",
             "group": {
                 "kind": "build",
                 "isDefault": true
