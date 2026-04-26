@@ -1,0 +1,19 @@
+# Compiled Java class files
+*.class
+
+# Compiled C/C++ executables
+*.exe
+*.out
+*.app
+
+# CMake build directories
+cmake-build-debug/
+cmake-build-release/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# OS generated files
+.DS_Store
+Thumbs.db

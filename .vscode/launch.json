@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "C++_Programs_a2a5609f"
+        },
+        {
+            "name": "GDB Launch (Manual Input)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb.exe",
+            "preLaunchTask": "Compile C++",
+            "setupCommands": [
+                {
+                    "text": "cd ${fileDirname}"
+                },
+                {
+                    "text": "enable pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

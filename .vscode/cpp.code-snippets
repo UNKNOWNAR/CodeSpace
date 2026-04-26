@@ -1,0 +1,29 @@
+{
+    "C++ Competitive Programming Template": {
+        "scope": "cpp",
+        "prefix": "cpp",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "using namespace std;",
+            "#define fast_io ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)",
+            "#define ll long long",
+            "#define pb push_back",
+            "#define all(v) v.begin(), v.end()",
+            "#define endl '\\n'",
+            "void solve() {",
+            "    $1",
+            "}",
+            "",
+            "int main() {",
+            "    fast_io; ",
+            "    int t = 1;",
+            "    cin >> t; ",
+            "    while (t--) {",
+            "        solve();",
+            "    }",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Inserts the custom C++ boilerplate from test.cpp"
+    }
+}
