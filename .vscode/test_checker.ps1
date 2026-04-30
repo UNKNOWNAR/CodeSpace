@@ -1,5 +1,5 @@
 param(
-    [string]$expectedFile = "expectedoutput.txt",
+    [string]$expectedFile = "answer.txt",
     [string]$outputFile = "output.txt"
 )
 

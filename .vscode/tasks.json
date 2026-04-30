@@ -58,7 +58,7 @@
                 "-File",
                 "${workspaceFolder}\\.vscode\\test_checker.ps1",
                 "-expectedFile",
-                "${workspaceFolder}\\expectedoutput.txt",
+                "${workspaceFolder}\\answer.txt",
                 "-outputFile",
 
                 "${workspaceFolder}\\output.txt"
