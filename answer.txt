@@ -1,6 +1,5 @@
-No
-Yes
-Yes
-No
-Yes
-Yes
+9
+13
+10
+19
+19
