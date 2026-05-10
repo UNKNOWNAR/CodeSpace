@@ -5,26 +5,21 @@ using namespace std;
 #define pb push_back
 #define all(v) v.begin(), v.end()
 #define endl '\n'
+ll sum(ll x){
+    ll s = x*(x+1);
+    s/=2;
+    return s;
+}
 void solve() {
-    int n,k;
-    cin>>n>>k;
-    string s;
-    cin>>s;
-    map<char,int> freq;
-    for(char c:s){
-        freq[c]++;
-    }
-    int odd_Count=0;
-    for(auto it:freq){
-        if(it.second%2==1){
-            odd_Count++;
-        }
-    }
-    if(odd_Count>k+1){
-        cout<<"NO"<<endl;
+    ll n,k,x;
+    cin>>n>>k>>x;
+    ll min_sum = sum(k);
+    ll max_sum = sum(n)-sum(n-k);
+    if(x>=min_sum && x<=max_sum){
+        cout<<"YES"<<endl;
     }
     else{
-        cout<<"YES"<<endl;
+        cout<<"NO"<<endl;
     }
 }
 
