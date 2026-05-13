@@ -16,7 +16,6 @@ void solve() {
         ans += min((ll)a-1, arr[i]);
     cout<<ans<<endl;
 }
-
 int main() {
     fast_io; 
     int t = 1;
