@@ -8,12 +8,12 @@ using namespace std;
 void solve() {
     ll n,x1,x2,k;
     cin>>n>>x1>>x2>>k;
-    ll dist = x1-x2;
-    ll m = min(dist,n-dist);
-    if (n%2==0&&m==n/2)
-        cout<<m+k<<endl;
+    ll dist = abs(x1-x2);
+    dist = min(dist,n-dist);
+    if(n<=3)
+        cout<<1<<endl;
     else
-        cout<<min(m+k,n/2)<<endl;
+        cout<<dist+k<<endl;
 }
 
 int main() {
