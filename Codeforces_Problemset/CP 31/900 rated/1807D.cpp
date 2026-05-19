@@ -29,7 +29,6 @@ void solve() {
             cout<<"NO"<<endl;
     }
 }
-
 int main() {
     fast_io; 
     int t;
