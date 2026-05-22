@@ -8,23 +8,31 @@ using namespace std;
 void solve() {
     int n;
     cin>>n;
-    int arr[n];
-    for(int i=0;i<n;i++)
-        cin>>arr[i];
-    int ans = 0;
-    bool flag = false;
-    for(int i=0;i<n;i++){
-        if(arr[i]==0){
-            if (flag&&arr[i-1]!=0) 
-                ans++;
-            if(!flag&&i>0&&arr[i-1]!=0)
-                ans++;
-            flag=!flag;
+    int a[n];
+    for (int i = 0; i < n; i++) 
+        cin >> a[i];
+        int count_of_zero = 0;
+        for (int i = 0; i < n; i++){
+            if (a[i] == 0)
+                count_of_zero++;
         }
-    }
-    if(flag&&arr[n-2]!=0)
-        ans++;
-    cout<<ans<<endl;
+        bool found_zero = false;
+        int left = 0;
+        int right = n - 1;
+        while (a[left] == 0) 
+            left++;
+        while (a[right] == 0) 
+            right--;
+        for (int i = left; i <= right; i++){
+            if (a[i] == 0)
+                found_zero = true;
+        }
+        if (count_of_zero == n) 
+            cout << 0 << endl;
+        else if (found_zero == false)
+            cout << 1 << endl;
+        else 
+            cout << 2 << endl;
 }
 
 int main() {
