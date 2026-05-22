@@ -12,17 +12,18 @@ void solve() {
     for(int i=0;i<n;i++)
         cin>>arr[i];
     int ans = 0;
-    bool in_segment = false;
+    bool flag = false;
     for(int i=0;i<n;i++){
-        if(arr[i]!=0){
-            if (!in_segment) {
+        if(arr[i]==0){
+            if (flag&&arr[i-1]!=0) 
                 ans++;
-                in_segment = true;
-            }
+            if(!flag&&i>0&&arr[i-1]!=0)
+                ans++;
+            flag=!flag;
         }
-        else
-            in_segment = false;
     }
+    if(flag&&arr[n-2]!=0)
+        ans++;
     cout<<ans<<endl;
 }
 
