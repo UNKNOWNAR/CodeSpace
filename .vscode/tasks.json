@@ -4,15 +4,20 @@
         {
             "label": "Auto Compile & Run",
             "type": "shell",
-            "options": {
-                "shell": {
-                    "executable": "cmd.exe",
-                    "args": [
-                        "/C"
-                    ]
-                }
+            "args": [
+                "${workspaceFolder}/.vscode/run_cp.py",
+                "${file}",
+                "${workspaceFolder}"
+            ],
+            "windows": {
+                "command": "py"
             },
-            "command": "if \"${fileExtname}\" == \".cpp\" ( g++ -std=c++17 -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\" \"${file}\" && \"${fileDirname}\\${fileBasenameNoExtension}.exe\" < \"${workspaceFolder}\\input.txt\" > \"${workspaceFolder}\\output.txt\" & del \"${fileDirname}\\${fileBasenameNoExtension}.exe\" ) else if \"${fileExtname}\" == \".java\" ( javac \"${file}\" && java -cp \"${fileDirname}\" \"${fileBasenameNoExtension}\" < \"${workspaceFolder}\\input.txt\" > \"${workspaceFolder}\\output.txt\" & del \"${fileDirname}\\${fileBasenameNoExtension}*.class\" ) else ( echo Unsupported file type )",
+            "linux": {
+                "command": "python3"
+            },
+            "osx": {
+                "command": "python3"
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -29,13 +34,13 @@
         {
             "type": "cppbuild",
             "label": "C/C++: gcc.exe build active file",
-            "command": "C:\\MinGW\\bin\\gcc.exe",
+            "command": "g++",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -46,23 +51,25 @@
             "group": {
                 "kind": "build",
                 "isDefault": false
-            },
+            }
         },
         {
             "label": "Compare Expected Output",
             "type": "shell",
-            "command": "powershell",
             "args": [
-                "-ExecutionPolicy",
-                "Bypass",
-                "-File",
-                "${workspaceFolder}\\.vscode\\test_checker.ps1",
-                "-expectedFile",
-                "${workspaceFolder}\\answer.txt",
-                "-outputFile",
-
-                "${workspaceFolder}\\output.txt"
+                "${workspaceFolder}/.vscode/test_checker.py",
+                "${workspaceFolder}/answer.txt",
+                "${workspaceFolder}/output.txt"
             ],
+            "windows": {
+                "command": "py"
+            },
+            "linux": {
+                "command": "python3"
+            },
+            "osx": {
+                "command": "python3"
+            },
             "group": {
                 "kind": "test",
                 "isDefault": true
