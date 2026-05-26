@@ -1,6 +1,7 @@
 import os
 import sys
 import subprocess
+import time
 
 
 def main():
@@ -30,20 +31,38 @@ def main():
             sys.exit(1)
 
         print("Running...")
-        with open(input_file, 'r') as fin, open(output_file, 'w') as fout:
-            result = subprocess.run([exe_path], stdin=fin, stdout=fout)
-
-        # Cleanup
+        start_time = time.time()
         try:
-            os.remove(exe_path)
-        except OSError:
-            pass
+            with open(input_file, 'r') as fin, open(output_file, 'w') as fout:
+                result = subprocess.run([exe_path], stdin=fin, stdout=fout, timeout=3.0)
+            
+            time_taken = time.time() - start_time
+            print(f"Execution completed in {time_taken:.4f} seconds.")
 
-        if result.returncode != 0:
-            print(f"Runtime error (exit code {result.returncode})")
+            # Cleanup
+            try:
+                os.remove(exe_path)
+            except OSError:
+                pass
+
+            if result.returncode != 0:
+                print(f"Runtime error (exit code {result.returncode})")
+                sys.exit(1)
+            else:
+                print("Done! Output written to output.txt")
+
+        except subprocess.TimeoutExpired:
+            time_taken = time.time() - start_time
+            print(f"Time Limit Exceeded (TLE) warning! Execution took more than {time_taken:.4f} seconds.")
+            with open(output_file, 'a') as fout:
+                fout.write("\n[TLE] Time Limit Exceeded (> 3s)\n")
+            
+            # Cleanup
+            try:
+                os.remove(exe_path)
+            except OSError:
+                pass
             sys.exit(1)
-        else:
-            print("Done! Output written to output.txt")
 
     elif ext == ".java":
         compile_cmd = ['javac', file_path]
@@ -54,22 +73,42 @@ def main():
             sys.exit(1)
 
         print("Running...")
-        with open(input_file, 'r') as fin, open(output_file, 'w') as fout:
-            result = subprocess.run(['java', '-cp', file_dir, base_name], stdin=fin, stdout=fout)
+        start_time = time.time()
+        try:
+            with open(input_file, 'r') as fin, open(output_file, 'w') as fout:
+                result = subprocess.run(['java', '-cp', file_dir, base_name], stdin=fin, stdout=fout, timeout=3.0)
+            
+            time_taken = time.time() - start_time
+            print(f"Execution completed in {time_taken:.4f} seconds.")
 
-        # Cleanup .class files
-        import glob
-        for f in glob.glob(os.path.join(file_dir, base_name + "*.class")):
-            try:
-                os.remove(f)
-            except OSError:
-                pass
+            # Cleanup .class files
+            import glob
+            for f in glob.glob(os.path.join(file_dir, base_name + "*.class")):
+                try:
+                    os.remove(f)
+                except OSError:
+                    pass
 
-        if result.returncode != 0:
-            print(f"Runtime error (exit code {result.returncode})")
+            if result.returncode != 0:
+                print(f"Runtime error (exit code {result.returncode})")
+                sys.exit(1)
+            else:
+                print("Done! Output written to output.txt")
+
+        except subprocess.TimeoutExpired:
+            time_taken = time.time() - start_time
+            print(f"Time Limit Exceeded (TLE) warning! Execution took more than {time_taken:.4f} seconds.")
+            with open(output_file, 'a') as fout:
+                fout.write("\n[TLE] Time Limit Exceeded (> 3s)\n")
+            
+            # Cleanup .class files
+            import glob
+            for f in glob.glob(os.path.join(file_dir, base_name + "*.class")):
+                try:
+                    os.remove(f)
+                except OSError:
+                    pass
             sys.exit(1)
-        else:
-            print("Done! Output written to output.txt")
 
     else:
         print(f"Unsupported file type: {ext}")
