@@ -1,7 +1,6 @@
 import java.io.*;
 import java.util.*;
-
-public class Maximum_Even_Sum {
+public class P2218C {
     public static void main(String[] args) {
         FastReader sc = new FastReader();
         PrintWriter out = new PrintWriter(System.out);
@@ -9,35 +8,26 @@ public class Maximum_Even_Sum {
         int t = 1;
         t = sc.nextInt(); // Uncomment this line for multiple test cases
         while (t-- > 0) {
-            solve(sc, out);
+            int n = sc.nextInt();
+            int x = 0;
+            for(int i=0;i<n;i++){
+                out.print((i+1)+" ");
+                out.print(3*n-x+" ");
+                x++;
+                out.print(3*n-x+" ");
+                x++;
+            }
+            out.println();
         }
-        out.flush();
+
+        out.close();
     }
 
     public static void solve(FastReader sc, PrintWriter out) {
-        long a = sc.nextLong();
-        long b = sc.nextLong();
-        long sum = (a + b) % 2 == 0 ? a + b : 0;
+        // Your logic goes here
 
-        for (long k = 1; k * k <= b; k++) {
-            if (b % k == 0) {
-                long d1 = k;
-                long d2 = b / k;
 
-                if ((a * d1 + d2) % 2 == 0)
-                    sum = Math.max(sum, a * d1 + d2);
-
-                if ((a * d2 + d1) % 2 == 0)
-                    sum = Math.max(sum, a * d2 + d1);
-            }
-        }
-
-        if (sum % 2 == 0 && sum > 0)
-            out.println(sum);
-        else
-            out.println(-1);
     }
-
 
     // Fast I/O Template
     static class FastReader {

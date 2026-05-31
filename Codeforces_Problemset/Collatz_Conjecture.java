@@ -1,5 +1,3 @@
-package CodeForces.contset.Round1047_Div3;
-
 import java.io.*;
 import java.util.*;
 
