@@ -12,22 +12,14 @@ void solve() {
     vector<ll> a(n), b(n);
     for (int i = 0; i < n; ++i) cin >> a[i];
     for (int i = 0; i < n; ++i) cin >> b[i];
-
-    ll sum_max = 0;
-    ll max_min = 0;
-
-    for (int i = 0; i < n; ++i) {
-        ll mx = max(a[i], b[i]);
-        ll mn = min(a[i], b[i]);
-        sum_max += mx;
-        if (mn > max_min) {
-            max_min = mn;
-        }
+    ll sum = 0;
+    ll max_val = 0;
+    for(int i = 0; i < n; ++i){
+        sum += max(a[i],b[i]);
+        max_val = max(min(a[i],b[i]),max_val);
     }
-
-    cout << sum_max + max_min << endl;
+    cout <<max_val+sum << endl;
 }
-
 int main() {
     fast_io; 
     int t;
