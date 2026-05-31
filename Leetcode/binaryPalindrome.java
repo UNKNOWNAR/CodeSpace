@@ -1,4 +1,3 @@
-package LeetCode.contset.Weekly_Contest466;
 
 import java.util.*;
 import java.io.*;
@@ -22,38 +21,42 @@ public class binaryPalindrome {
      * Replace this with the actual method signature from the LeetCode problem.
      */
     public int countBinaryPalindromes(long n) {
-        if(n==0) return 1;
+        if (n == 0)
+            return 1;
         int count = 1;
         long k = 1;
-        while(true){
+        while (true) {
             StringBuilder binary = BinaryEqv(k);
             StringBuilder evenPalindrome = binary.append(binary.reverse());
-            if(IntegerEqv(evenPalindrome)<=n)
+            if (IntegerEqv(evenPalindrome) <= n)
                 count++;
             else
                 break;
-            StringBuilder oddPalindrome = binary.append(new StringBuilder(binary.substring(0,binary.length()-1)).reverse());
-            if(IntegerEqv(oddPalindrome)<=n)
+            StringBuilder oddPalindrome = binary
+                    .append(new StringBuilder(binary.substring(0, binary.length() - 1)).reverse());
+            if (IntegerEqv(oddPalindrome) <= n)
                 count++;
         }
-        return count+1;
+        return count + 1;
     }
-    private StringBuilder BinaryEqv(long n){
+
+    private StringBuilder BinaryEqv(long n) {
         StringBuilder binary = new StringBuilder();
         long temp = 0;
-        while(temp>1){
-            binary.insert(0,String.valueOf(temp%2));
-            temp /=2;
+        while (temp > 1) {
+            binary.insert(0, String.valueOf(temp % 2));
+            temp /= 2;
         }
-        binary.insert(0,String.valueOf(temp));
+        binary.insert(0, String.valueOf(temp));
         return binary;
     }
-    private long IntegerEqv(StringBuilder binary){
+
+    private long IntegerEqv(StringBuilder binary) {
         int indx = 0;
         long integer = 0;
-        while(!binary.isEmpty()){
-            if(binary.charAt(binary.length()-1)=='1')
-                integer += Math.pow(2,indx);
+        while (!binary.isEmpty()) {
+            if (binary.charAt(binary.length() - 1) == '1')
+                integer += Math.pow(2, indx);
             indx++;
         }
         return integer;
@@ -61,7 +64,6 @@ public class binaryPalindrome {
     // ===================================================================
     // END OF THE PART YOU WILL SUBMIT
     // ===================================================================
-
 
     // ===================================================================
     // THIS IS YOUR LOCAL TESTING AREA - DO NOT SUBMIT THIS

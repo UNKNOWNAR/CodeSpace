@@ -1,4 +1,4 @@
-package LeetCode.contset.Weekly_Contest471;
+
 
 /**
  * Solution for:
