@@ -23,7 +23,7 @@ def main():
     if ext == ".cpp":
         exe_path = os.path.join(file_dir, base_name + (".exe" if is_win else ""))
 
-        compile_cmd = ['g++', '-std=c++17', file_path, '-o', exe_path]
+        compile_cmd = ['g++', '-std=c++20', file_path, '-o', exe_path]
         print(f"Compiling: {os.path.basename(file_path)}")
         result = subprocess.run(compile_cmd)
         if result.returncode != 0:
