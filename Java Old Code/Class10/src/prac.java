@@ -1,6 +1,7 @@
 import java.io.*;
 public class prac
 {
+    int b = 10;
     public static void main(String args[])throws IOException
     {
         DataInputStream dis = new DataInputStream(System.in);

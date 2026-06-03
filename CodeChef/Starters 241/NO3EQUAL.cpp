@@ -6,12 +6,19 @@ using namespace std;
 #define all(v) v.begin(), v.end()
 #define endl '\n'
 void solve() {
-    ll n;
-    cin>>n;
-    int ans = 1;
-    while(n%ans==0)
-        ans++;
-    cout<<ans-1<<endl;
+    int n;
+    string s;
+    cin>>n>>s;
+    int count = 0;
+    int i = 0;
+    while(i<n-2){
+        if(s[i]==s[i+1]&&s[i]==s[i+2]){
+            count++;
+            i+=3;
+        }
+        else i++;
+    }
+    cout<<count<<endl;
 }
 
 int main() {

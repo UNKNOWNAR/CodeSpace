@@ -6,26 +6,21 @@ using namespace std;
 #define all(v) v.begin(), v.end()
 #define endl '\n'
 void solve() {
-    int n,k;
-    cin>>n>>k;
-    int ans = k;
-    int even = 0;
+    int n;
+    cin>>n;
+    int a[n];
+    int sum = 0;
     for(int i=0;i<n;i++){
-        int x;
-        cin>>x;
-        if(x%2==0) even++;
-        ans = min(ans,(k-x%k)%k);
+        cin>>a[i];
+        sum+=a[i];
     }
-    if(k!=4||ans==0)
-        cout<<ans<<endl;
-    else if(even>=2)
-        cout<<0<<endl;
-    else if(even==1)
-        cout<<1<<endl;
-    else if(ans==3)
-        cout<<2<<endl;
-    else 
-        cout<<ans<<endl;
+    for(int i=0;i<n;i++){
+        if((sum-a[i])%2==0){
+            cout<<"Yes"<<endl;
+            return;
+        }
+    }
+    cout<<"No"<<endl;
 }
 
 int main() {

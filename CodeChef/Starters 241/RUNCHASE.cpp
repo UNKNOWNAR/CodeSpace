@@ -8,20 +8,11 @@ using namespace std;
 void solve() {
     int n;
     cin>>n;
-    vector<int> a(n);
-    for(int i=0;i<n;i++)    cin>>a[i];
-    sort(a.rbegin(), a.rend());
-    for(int i = 0; i < n; i++) 
-        cout<<a[i]<<" ";
-    cout <<endl;
+    cout<<ceil((n+1)/20.0)<<endl;
 }
 
 int main() {
-    fast_io; 
-    int t;
-    cin >> t; 
-    while (t--) {
-        solve();
-    }
+    fast_io;  
+    solve();
     return 0;
 }
