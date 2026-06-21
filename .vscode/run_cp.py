@@ -45,6 +45,18 @@ def run_with_realtime_output(cmd, stdin_path, stdout_path, timeout=3.0):
             if elapsed > timeout:
                 proc.terminate()
                 proc.wait()
+                # Read any leftover items from the queue before raising
+                while not q.empty():
+                    try:
+                        stream_name, line = q.get_nowait()
+                        if stream_name == 'stdout':
+                            fout.write(line)
+                            fout.flush()
+                        else:
+                            sys.stderr.write(line)
+                            sys.stderr.flush()
+                    except queue.Empty:
+                        break
                 raise subprocess.TimeoutExpired(cmd, timeout)
             
             try:
