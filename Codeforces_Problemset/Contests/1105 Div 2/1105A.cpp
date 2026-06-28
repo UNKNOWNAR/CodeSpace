@@ -6,21 +6,17 @@ using namespace std;
 #define all(v) v.begin(), v.end()
 #define endl '\n'
 void solve() {
-    int n;
-    cin>>n;
-    vector<ll> arr(n);
-    for(int i=0;i<n;i++)
-        cin>>arr[i];
-    ll max = arr[0];
-    for(int i=1; i<n; i++){
-        if(arr[i]>=max)
-            max = arr[i];
-        else
-            max += arr[i];
+    ll n,k;
+    cin>>n>>k;
+    if(k>=n){
+        cout<<n<<endl;
+        return;
     }
-    cout<<max<<endl;
+    int p = 0;
+    while(p<20&&k*((1LL<<(p+1))-1LL)<=n) p++;
+    ll remaining = n - k * ((1LL<<p)-1LL);
+    cout << k * p + (remaining >> p) << endl;
 }
-
 int main() {
     fast_io; 
     int t;

@@ -8,17 +8,10 @@ using namespace std;
 void solve() {
     int n;
     cin>>n;
-    vector<ll> arr(n);
-    for(int i=0;i<n;i++)
-        cin>>arr[i];
-    ll max = arr[0];
-    for(int i=1; i<n; i++){
-        if(arr[i]>=max)
-            max = arr[i];
-        else
-            max += arr[i];
-    }
-    cout<<max<<endl;
+    ll ans = 0;
+    for(int b=1;b<=n;b++)
+        ans += 1LL * (n/b) * (n/b);
+    cout<<ans<<endl;
 }
 
 int main() {

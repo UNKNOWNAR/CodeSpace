@@ -6,25 +6,26 @@ using namespace std;
 #define all(v) v.begin(), v.end()
 #define endl '\n'
 void solve() {
-    int n;
-    cin>>n;
-    vector<ll> arr(n);
-    for(int i=0;i<n;i++)
-        cin>>arr[i];
-    ll max = arr[0];
-    for(int i=1; i<n; i++){
-        if(arr[i]>=max)
-            max = arr[i];
-        else
-            max += arr[i];
+    ll n,m,r,c;
+    cin>>n>>m>>r>>c;
+    const ll p=998244353;
+    const ll pm1=p-1;
+    ll E_1=n*m-(n-r+1)*(m-c+1);
+    ll power=E_1%pm1;
+    ll base=2,exp=power,result=1;
+    base%=p;
+    while(exp>0){
+        if(exp&1) 
+            result=result*base%p;
+        base=base*base%p;
+        exp>>=1;
     }
-    cout<<max<<endl;
+    cout<<result<<endl;
 }
-
 int main() {
     fast_io; 
     int t;
-    cin >> t; 
+    cin>>t;
     while (t--) {
         solve();
     }

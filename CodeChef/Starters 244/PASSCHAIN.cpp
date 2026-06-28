@@ -6,19 +6,12 @@ using namespace std;
 #define all(v) v.begin(), v.end()
 #define endl '\n'
 void solve() {
-    int n;
-    cin>>n;
-    vector<ll> arr(n);
-    for(int i=0;i<n;i++)
-        cin>>arr[i];
-    ll max = arr[0];
-    for(int i=1; i<n; i++){
-        if(arr[i]>=max)
-            max = arr[i];
-        else
-            max += arr[i];
-    }
-    cout<<max<<endl;
+    int n,k;
+    cin>>n>>k;
+    int x = 1;
+    while(x+k<=n)
+        x+=k;
+    cout<<x<<endl;
 }
 
 int main() {
