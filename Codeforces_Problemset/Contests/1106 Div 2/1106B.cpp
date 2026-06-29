@@ -6,11 +6,11 @@ using namespace std;
 #define all(v) v.begin(), v.end()
 #define endl '\n'
 void solve() {
-    int n;
+    ll n;
     cin>>n;
     ll ans = 0;
-    for(int b=1;b<=n;b++)
-        ans += 1LL * (n/b) * (n/b);
+    for(ll b=1;b<=n;b++)
+        ans += (n/b) * (n/b);
     cout<<ans<<endl;
 }
 
