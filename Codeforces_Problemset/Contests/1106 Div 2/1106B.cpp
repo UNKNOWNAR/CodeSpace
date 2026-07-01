@@ -12,7 +12,7 @@ void solve() {
     for(ll b=1;b<=n;b++)
         ans += (n/b) * (n/b);
     cout<<ans<<endl;
-}
+}1
 
 int main() {
     fast_io; 

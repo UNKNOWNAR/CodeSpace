@@ -1,0 +1,27 @@
+class Solution {
+    public int divide(int dividend, int divisor) {
+        if(dividend==divisor) return 1;
+        boolean sign = true;
+
+        if(dividend>0&&divisor<0)   sign = false;
+        if(dividend<=0&&divisor>0)   sign = false;
+
+        long n = Math.abs((long) dividend);
+        long d = Math.abs((long) divisor);
+        long quotent = 0;
+        while(n>=d){
+            int count = 0;
+            while(n>=d*(1L<<count+1))
+                count++;
+            quotent += (1L<<count);
+            n -= d*(1L<<count);
+        }
+
+        if(quotent==(1L<<31)&&sign)
+            return Integer.MAX_VALUE;
+        if(quotent==(1L<<31)&&!sign)
+            return Integer.MIN_VALUE;
+        int ans = (int)quotent;
+        return sign?ans:-ans;
+    }
+}

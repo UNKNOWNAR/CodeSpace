@@ -5,17 +5,15 @@ using namespace std;
 #define pb push_back
 #define all(v) v.begin(), v.end()
 #define endl '\n'
+ll rec(int n,int k){
+    if(k>=n)
+        return n;
+    return k + rec((n-k)/2,k);
+}
 void solve() {
-    ll n,k;
-    cin>>n>>k;
-    if(k>=n){
-        cout<<n<<endl;
-        return;
-    }
-    int p = 0;
-    while(p<20&&k*((1LL<<(p+1))-1LL)<=n) p++;
-    ll remaining = n - k * ((1LL<<p)-1LL);
-    cout << k * p + (remaining >> p) << endl;
+    int n,k;
+    cin>>n>>k;  
+    cout<<rec(n,k)<<endl;
 }
 int main() {
     fast_io; 
