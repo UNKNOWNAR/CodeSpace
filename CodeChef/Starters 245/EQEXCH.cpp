@@ -8,20 +8,22 @@ using namespace std;
 void solve() {
     int n, k;
     cin >> n >> k;
-    int current_prefix = 0;
-    int min_prefix = 0; 
-    int max_prefix = 0; 
-    for (int i = 0; i < n; i++) {
-        int a;
-        cin >> a;
-        current_prefix += a;
-        min_prefix = min(min_prefix, current_prefix);
-        max_prefix = max(max_prefix, current_prefix);
+    vector<int> arr(n),prefix(n,0);
+    for(int i=0;i<n;i++)
+        cin>>arr[i];
+    prefix[0] = arr[0];
+    for(int i=1;i<n;i++)
+        prefix[i] = prefix[i-1]+arr[i];
+    int L = 0,R = k;
+    for(auto &p:prefix){
+        L = max(L,-p);
+        R = min(R,k-p);
+        if(L>R){
+            cout<<"NO"<<endl;
+            return;
+        }
     }
-    if (max_prefix - min_prefix <= k) 
-        cout << "Yes\n";
-    else 
-        cout << "No\n";
+    cout<<"YES"<<endl;
 }
 int main() {
     fast_io; 
