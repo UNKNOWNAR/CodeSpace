@@ -6,16 +6,13 @@ using namespace std;
 #define all(v) v.begin(), v.end()
 #define endl '\n'
 void solve() {
-    string x;
-    cin>>x;
-    /*
-    By picking y = 10^L + 1 (where L is the number of digits in x), multiplying x * y essentially concatenates x with itself (e.g., x * (10^L + 1) = x * 10^L + x). which is good in the process
-    */
-    int L = x.size();
-    ll y = 1;
-    for(int i=0;i<L;i++)
-        y *= 10;
-    cout<<y+1<<endl;
+    string s;
+    int n;
+    cin>>n>>s;
+    int runs = 1;
+    for (int i=1;i<n;i++) 
+        if(s[i]!=s[i-1]) runs++;
+    cout<<(runs==2?2:1)<<endl;
 }
 
 int main() {
