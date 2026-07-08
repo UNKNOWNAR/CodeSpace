@@ -6,13 +6,17 @@ using namespace std;
 #define all(v) v.begin(), v.end()
 #define endl '\n'
 void solve() {
-    int n,k,mod = 1e9+7;
+    int n,k;
     cin>>n>>k;
-    ll ans = 1;
-    for(int i=0;i<k;i++)
-        ans = (ans*n)%mod;
-    cout<<ans%mod<<endl;
+    k--;
+    if(n%2==0){
+        cout<<(k)%n+1<<endl;
+        return;
+    }
+    int val = n/2;
+    cout<<((k+(k/val))%n)+1<<endl;
 }
+
 int main() {
     fast_io; 
     int t;
