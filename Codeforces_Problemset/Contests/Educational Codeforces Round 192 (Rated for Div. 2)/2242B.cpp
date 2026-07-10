@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define fast_io ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
+#define ll long long
+#define pb push_back
+#define all(v) v.begin(), v.end()
 #define endl '\n'
 void solve() {
     int n;
@@ -8,24 +11,38 @@ void solve() {
     vector<int> arr(n);
     for(int i=0;i<n;i++)
         cin>>arr[i];
-    vector<int> P1(n + 1, 0), P2(n + 1, 0);
-    for(int i=1;i<=n;i++) {
-        int v = arr[i - 1];
-        P1[i] = P1[i - 1] + (v == 1 ? 1 : -1);
-        P2[i] = P2[i - 1] + (v == 3 ? -1 : 1);
-    }
-    vector<int> M(n, INT_MIN);
-    if(n-1>=1) M[n-1] = P2[n-1];
-    for(int i = n-2; i>=1; i--)
-        M[i] = max(P2[i], M[i+1]);
-    bool ok = false;
-    for(int L1 = 1; L1 <= n-2; L1++) {
-        if(P1[L1] >= 0 && M[L1+1] >= P2[L1]) {
-            ok = true;
+    int c1 = 0,c2 = 0,c3 =0;
+    int i = 0;
+    for(int j=i;j<n;j++){
+        if(arr[j] == 1) c1++;
+        else if(arr[j] == 2) c2++;
+        else c3++;
+        i++;
+        if(c1>=c2+c3){
+            while(i<n&&arr[i]==3&&c1>c2+c3){
+                c3++;
+                i++;
+            }
             break;
         }
-    }   
-    cout << (ok ? "YES" : "NO") << endl;
+    }
+    if(i==n){
+        cout<<"NO"<<endl;
+        return;
+    }
+    c1 = 0,c2 = 0,c3 =0;
+    for(int j=i;j<n;j++){
+        if(arr[j] == 1) c1++;
+        else if(arr[j] == 2) c2++;
+        else c3++;
+        i++;
+        if(c1+c2>=c3)
+            break;
+    }
+    if(i==n)
+        cout<<"NO"<<endl;
+    else
+        cout<<"YES"<<endl;
 }
 
 int main() {

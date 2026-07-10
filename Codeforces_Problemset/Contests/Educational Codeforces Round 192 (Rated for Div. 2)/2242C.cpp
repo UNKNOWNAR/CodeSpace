@@ -1,53 +1,53 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-#define fast_io ios::sync_with_stdio(false); cin.tie(nullptr);
-
+#define fast_io ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
+#define ll long long
+#define pb push_back
+#define all(v) v.begin(), v.end()
+#define endl '\n'
 void solve() {
-    int n, k;
-    cin >> n >> k;
-    vector<int> a(n);
-    for (int i = 0; i < n; i++) cin >> a[i];
-    vector<int> cnt;
-    int cur = 1;
-    for (int i = 1; i < n; i++) {
-        if (a[i] == a[i - 1]) cur++;
-        else {
-            cnt.push_back(cur);
-            cur = 1;
-        }
+    int n,k;
+    cin>>n>>k;
+    vector<int> arr(n);
+    map<int,int> s;
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+        s[arr[i]]++;
     }
-    cnt.push_back(cur);
-    map<int, int> freq;
-    long long sumLen = 0;
-    for (int x : cnt) {
-        freq[x]++;
-        sumLen += x;
+    int d = s.size();
+    vector<int> v;
+    for(auto &x:s)
+        v.pb(x.second);
+    sort(all(v));
+    int D = v.size();
+    vector<pair<int,int>> groups; 
+    for(int i=0;i<D;){
+        int j=i;
+        while(j<D && v[j]==v[i]) j++;
+        groups.push_back({v[i], j-i});
+        i=j;
     }
-    int alive = cnt.size();
-    long long aliveSum = sumLen;
-    int startL = 0;
-    int ans = 0;
-    for (auto [v, f] : freq) {
-        int endL = v - 1;
-        if (alive > 0 && startL <= endL) {
-            long long need = (long long)k - aliveSum;
-            if (need % alive == 0) {
-                long long d = need / alive;
-                if (max(startL, (int)(-d)) <= endL)
-                    ans++;
-            }
-        }
-        alive -= f;
-        aliveSum -= 1LL * f * v;
-        startL = v;
+    int G = groups.size();
+    ll len = n, carry = 0, activeRuns = D, count = 0;
+    for(int gi=0; gi<G; gi++){
+        ll s_step = activeRuns;                 
+        ll m = (ll)groups[gi].first - carry;         
+        ll floor = len - (m-1)*s_step;          
+        if(k >= floor && (k-floor)%s_step==0)
+            count++;
+        if(gi == G-1) break;                   
+        len -= m*s_step;
+        carry = groups[gi].first;
+        activeRuns -= groups[gi].second;             
     }
-    cout << ans <<endl;
+    cout<<count<<endl;
 }
 int main() {
-    fast_io
+    fast_io; 
     int t;
-    cin >> t;
-    while (t--) solve();
+    cin >> t; 
+    while (t--) {
+        solve();
+    }
     return 0;
 }
