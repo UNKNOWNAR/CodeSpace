@@ -1,25 +1,33 @@
 class Solution {
 public:
+    int m,n;
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
-        int m = mat.size(), n = mat[0].size();
-        vector<vector<int>> dist(m, vector<int>(n, 1e5));
+        int m = mat.size();
+        int n = mat[0].size();
+        vector<vector<int>> dist(m,vector<int>(n,-1));
+        queue<pair<int, int>> q;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (mat[i][j] == 0) {
                     dist[i][j] = 0;
-                } else {
-                    if (i > 0) dist[i][j] = min(dist[i][j], dist[i - 1][j] + 1);
-                    if (j > 0) dist[i][j] = min(dist[i][j], dist[i][j - 1] + 1);
+                    q.push({i, j});
                 }
             }
         }
-        for (int i = m - 1; i >= 0; i--) {
-            for (int j = n - 1; j >= 0; j--) {
-                if (i < m - 1) dist[i][j] = min(dist[i][j], dist[i + 1][j] + 1);
-                if (j < n - 1) dist[i][j] = min(dist[i][j], dist[i][j + 1] + 1);
+        int dr[4] = {1,0,-1,0};
+        int dc[4] = {0,1,0,-1};
+        while (!q.empty()) {
+            auto [r, c] = q.front();
+            q.pop();
+            for (int i = 0; i < 4; i++) {
+                int nr = r + dr[i];
+                int nc = c + dc[i];
+                if (nr >= 0 && nr < m && nc >= 0 && nc < n && dist[nr][nc] == -1) {
+                    dist[nr][nc] = dist[r][c] + 1;
+                    q.push({nr, nc});
+                }
             }
         }
-
         return dist;
     }
 };
