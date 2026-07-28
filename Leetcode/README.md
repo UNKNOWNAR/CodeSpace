@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1765-map-of-highest-peak](https://github.com/UNKNOWNAR/LeetCode/tree/master/1765-map-of-highest-peak) |
+| [2126-destroying-asteroids](https://github.com/UNKNOWNAR/LeetCode/tree/master/2126-destroying-asteroids) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3513-number-of-unique-xor-triplets-i) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1288-remove-covered-intervals](https://github.com/UNKNOWNAR/LeetCode/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [2126-destroying-asteroids](https://github.com/UNKNOWNAR/LeetCode/tree/master/2126-destroying-asteroids) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/UNKNOWNAR/LeetCode/tree/master/3536-maximum-product-of-two-digits) |
 | [3606-coupon-code-validator](https://github.com/UNKNOWNAR/LeetCode/tree/master/3606-coupon-code-validator) |
@@ -186,4 +188,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3517-smallest-palindromic-rearrangement-i) |
+## Greedy
+|  |
+| ------- |
+| [2126-destroying-asteroids](https://github.com/UNKNOWNAR/LeetCode/tree/master/2126-destroying-asteroids) |
 <!---LeetCode Topics End-->
