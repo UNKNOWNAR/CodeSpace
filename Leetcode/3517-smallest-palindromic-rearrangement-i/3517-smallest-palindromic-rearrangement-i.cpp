@@ -19,10 +19,10 @@ public:
                     continue;
                 }
                 front += c;
-                end += c;
                 freq[c]-=2;
             }
         }
+        end = front;
         reverse(end.begin(),end.end());
         return front+mid+end;
     }
