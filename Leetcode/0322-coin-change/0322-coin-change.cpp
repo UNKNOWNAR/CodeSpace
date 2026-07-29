@@ -17,9 +17,8 @@ public:
         int it = 1;
         while (amount - it * coins[indx] >= 0) {
             int temp = countCoins(indx + 1, amount - it * coins[indx], coins, dp);
-            if (temp != INF) {
+            if (temp != INF) 
                 count = min(count, temp + it);
-            }
             it++;
         }
         return dp[indx][amount] = count;
