@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/UNKNOWNAR/LeetCode/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/UNKNOWNAR/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1020-number-of-enclaves](https://github.com/UNKNOWNAR/LeetCode/tree/master/1020-number-of-enclaves) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/UNKNOWNAR/LeetCode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/UNKNOWNAR/LeetCode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1288-remove-covered-intervals](https://github.com/UNKNOWNAR/LeetCode/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/UNKNOWNAR/LeetCode/tree/master/1301-number-of-paths-with-max-score) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-find-eventual-safe-states](https://github.com/UNKNOWNAR/LeetCode/tree/master/0802-find-eventual-safe-states) |
 | [0994-rotting-oranges](https://github.com/UNKNOWNAR/LeetCode/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/UNKNOWNAR/LeetCode/tree/master/1020-number-of-enclaves) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/UNKNOWNAR/LeetCode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1765-map-of-highest-peak](https://github.com/UNKNOWNAR/LeetCode/tree/master/1765-map-of-highest-peak) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/UNKNOWNAR/LeetCode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -109,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/UNKNOWNAR/LeetCode/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/UNKNOWNAR/LeetCode/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/UNKNOWNAR/LeetCode/tree/master/1020-number-of-enclaves) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/UNKNOWNAR/LeetCode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1301-number-of-paths-with-max-score](https://github.com/UNKNOWNAR/LeetCode/tree/master/1301-number-of-paths-with-max-score) |
 | [1765-map-of-highest-peak](https://github.com/UNKNOWNAR/LeetCode/tree/master/1765-map-of-highest-peak) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
