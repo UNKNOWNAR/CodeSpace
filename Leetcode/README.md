@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/UNKNOWNAR/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0410-split-array-largest-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0486-predict-the-winner](https://github.com/UNKNOWNAR/LeetCode/tree/master/0486-predict-the-winner) |
 | [0542-01-matrix](https://github.com/UNKNOWNAR/LeetCode/tree/master/0542-01-matrix) |
 | [0628-maximum-product-of-three-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0733-flood-fill](https://github.com/UNKNOWNAR/LeetCode/tree/master/0733-flood-fill) |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/UNKNOWNAR/LeetCode/tree/master/0070-climbing-stairs) |
+| [0486-predict-the-winner](https://github.com/UNKNOWNAR/LeetCode/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -219,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/UNKNOWNAR/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0410-split-array-largest-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0486-predict-the-winner](https://github.com/UNKNOWNAR/LeetCode/tree/master/0486-predict-the-winner) |
 | [0542-01-matrix](https://github.com/UNKNOWNAR/LeetCode/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/UNKNOWNAR/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1143-longest-common-subsequence](https://github.com/UNKNOWNAR/LeetCode/tree/master/1143-longest-common-subsequence) |
@@ -282,4 +285,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/UNKNOWNAR/LeetCode/tree/master/0070-climbing-stairs) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/UNKNOWNAR/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
+## Recursion
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/UNKNOWNAR/LeetCode/tree/master/0486-predict-the-winner) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/UNKNOWNAR/LeetCode/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
