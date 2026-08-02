@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0749-contain-virus](https://github.com/UNKNOWNAR/LeetCode/tree/master/0749-contain-virus) |
 | [0848-shifting-letters](https://github.com/UNKNOWNAR/LeetCode/tree/master/0848-shifting-letters) |
 | [0875-koko-eating-bananas](https://github.com/UNKNOWNAR/LeetCode/tree/master/0875-koko-eating-bananas) |
+| [0877-stone-game](https://github.com/UNKNOWNAR/LeetCode/tree/master/0877-stone-game) |
 | [0994-rotting-oranges](https://github.com/UNKNOWNAR/LeetCode/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/UNKNOWNAR/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1020-number-of-enclaves](https://github.com/UNKNOWNAR/LeetCode/tree/master/1020-number-of-enclaves) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/UNKNOWNAR/LeetCode/tree/master/0070-climbing-stairs) |
 | [0486-predict-the-winner](https://github.com/UNKNOWNAR/LeetCode/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0877-stone-game](https://github.com/UNKNOWNAR/LeetCode/tree/master/0877-stone-game) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3513-number-of-unique-xor-triplets-i) |
@@ -231,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/UNKNOWNAR/LeetCode/tree/master/0486-predict-the-winner) |
 | [0542-01-matrix](https://github.com/UNKNOWNAR/LeetCode/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/UNKNOWNAR/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0877-stone-game](https://github.com/UNKNOWNAR/LeetCode/tree/master/0877-stone-game) |
 | [1143-longest-common-subsequence](https://github.com/UNKNOWNAR/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1301-number-of-paths-with-max-score](https://github.com/UNKNOWNAR/LeetCode/tree/master/1301-number-of-paths-with-max-score) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
@@ -301,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/UNKNOWNAR/LeetCode/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/UNKNOWNAR/LeetCode/tree/master/0877-stone-game) |
 ## Simulation
 |  |
 | ------- |
