@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0486-predict-the-winner](https://github.com/UNKNOWNAR/LeetCode/tree/master/0486-predict-the-winner) |
+| [0496-next-greater-element-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0542-01-matrix](https://github.com/UNKNOWNAR/LeetCode/tree/master/0542-01-matrix) |
 | [0628-maximum-product-of-three-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0733-flood-fill](https://github.com/UNKNOWNAR/LeetCode/tree/master/0733-flood-fill) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0126-word-ladder-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/UNKNOWNAR/LeetCode/tree/master/0127-word-ladder) |
+| [0496-next-greater-element-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/UNKNOWNAR/LeetCode/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1331-rank-transform-of-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -315,10 +317,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0496-next-greater-element-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/UNKNOWNAR/LeetCode/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0496-next-greater-element-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/UNKNOWNAR/LeetCode/tree/master/0739-daily-temperatures) |
 ## Sliding Window
 |  |
