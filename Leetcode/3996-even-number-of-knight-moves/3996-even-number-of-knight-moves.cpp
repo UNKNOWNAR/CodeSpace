@@ -1,9 +1,32 @@
 class Solution {
 public:
     bool canReach(vector<int>& start, vector<int>& target) {
-        //knight moves from white->black->white so in every moves it changes its colors
-        //color of a cell is detremined by(x+y) if even then black if odd then white
-        return ((start[0]+start[1])&1)==((target[0]+target[1])&1);
-        //so if color are same then even number of moves if different then odd numebr of moves
+        if(start == target) return true;
+        queue<pair<int,int>> q;
+        vector<vector<bool>> vis(8,vector<bool>(8));
+        q.push({start[0],start[1]});
+        int moves = 0;
+        int dr[8] = {-1,1,2,2,1,-1,-2,-2};
+        int dc[8] = {2,2,1,-1,-2,-2,-1,1};
+        vis[start[0]][start[1]] = true;
+        while(!q.empty()){
+            int siz = q.size();
+            while(siz--){
+                auto [r,c] = q.front();
+                q.pop();
+                for(int i=0;i<8;i++){
+                    int nr = r+dr[i];
+                    int nc = c+dc[i];
+                    if(nr==target[0]&&nc==target[1])
+                        return ((moves + 1) % 2 == 0);                        
+                    if(nr>=8||nc>=8||nr<0||nc<0||vis[nr][nc])
+                        continue;
+                    vis[nr][nc] = true;
+                    q.push({nr,nc});
+                }
+            }
+            moves++;
+        }
+        return false;
     }
 };
