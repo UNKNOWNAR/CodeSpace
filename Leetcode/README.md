@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3345-smallest-divisible-digit-product-i) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3536-maximum-product-of-two-digits](https://github.com/UNKNOWNAR/LeetCode/tree/master/3536-maximum-product-of-two-digits) |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2381-shifting-letters-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/2381-shifting-letters-ii) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3606-coupon-code-validator](https://github.com/UNKNOWNAR/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -302,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0126-word-ladder-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/0126-word-ladder-ii) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Counting Sort
 |  |
 | ------- |
@@ -317,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2126-destroying-asteroids](https://github.com/UNKNOWNAR/LeetCode/tree/master/2126-destroying-asteroids) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Memoization
 |  |
 | ------- |
@@ -395,4 +399,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0239-sliding-window-maximum) |
+## Number Theory
+|  |
+| ------- |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 <!---LeetCode Topics End-->
