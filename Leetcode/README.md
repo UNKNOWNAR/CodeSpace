@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/UNKNOWNAR/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/UNKNOWNAR/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/UNKNOWNAR/LeetCode/tree/master/0130-surrounded-regions) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/UNKNOWNAR/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/UNKNOWNAR/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/UNKNOWNAR/LeetCode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/UNKNOWNAR/LeetCode/tree/master/0200-number-of-islands) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/UNKNOWNAR/LeetCode/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/UNKNOWNAR/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0486-predict-the-winner](https://github.com/UNKNOWNAR/LeetCode/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/UNKNOWNAR/LeetCode/tree/master/0877-stone-game) |
@@ -348,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/UNKNOWNAR/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/UNKNOWNAR/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/UNKNOWNAR/LeetCode/tree/master/0085-maximal-rectangle) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/UNKNOWNAR/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0402-remove-k-digits](https://github.com/UNKNOWNAR/LeetCode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/0503-next-greater-element-ii) |
