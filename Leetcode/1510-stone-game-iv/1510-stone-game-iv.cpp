@@ -1,20 +1,15 @@
 class Solution {
 public:
-    bool solve(int n,vector<int>& dp){
-        if(n==0)
-            return false;
-        if(dp[n]!=-1)
-            return dp[n];
-        bool win = false;
-        for(int i=1;i*i<=n;i++){
-            win |= !solve(n-i*i,dp);
-            if(win)
-                return dp[n] = win;
-        }
-        return dp[n] = win;
-    }
     bool winnerSquareGame(int n) {
-        vector<int> dp(n+1,-1);
-        return solve(n,dp);
+        vector<bool> dp(n+1,false);
+        dp[0] = false;
+        for(int i=1;i<=n;i++){
+            for(int j=1;i>=j*j;j++){
+                dp[i] = dp[i] | (!dp[i-j*j]);
+                if(dp[i])
+                    break;
+            }
+        }
+        return dp[n];
     }
 };
