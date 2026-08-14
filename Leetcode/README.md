@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3606-coupon-code-validator](https://github.com/UNKNOWNAR/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3731-find-missing-elements](https://github.com/UNKNOWNAR/LeetCode/tree/master/3731-find-missing-elements) |
+| [3921-score-validator](https://github.com/UNKNOWNAR/LeetCode/tree/master/3921-score-validator) |
 ## Binary Search
 |  |
 | ------- |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3606-coupon-code-validator](https://github.com/UNKNOWNAR/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
+| [3921-score-validator](https://github.com/UNKNOWNAR/LeetCode/tree/master/3921-score-validator) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -372,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0735-asteroid-collision](https://github.com/UNKNOWNAR/LeetCode/tree/master/0735-asteroid-collision) |
 | [0749-contain-virus](https://github.com/UNKNOWNAR/LeetCode/tree/master/0749-contain-virus) |
+| [3921-score-validator](https://github.com/UNKNOWNAR/LeetCode/tree/master/3921-score-validator) |
 ## Stack
 |  |
 | ------- |
