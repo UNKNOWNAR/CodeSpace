@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3924-minimum-threshold-path-with-limited-heavy-edges](https://github.com/UNKNOWNAR/LeetCode/tree/master/3924-minimum-threshold-path-with-limited-heavy-edges) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2812-find-the-safest-path-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3310-remove-methods-from-project](https://github.com/UNKNOWNAR/LeetCode/tree/master/3310-remove-methods-from-project) |
+| [3924-minimum-threshold-path-with-limited-heavy-edges](https://github.com/UNKNOWNAR/LeetCode/tree/master/3924-minimum-threshold-path-with-limited-heavy-edges) |
 ## Union-Find
 |  |
 | ------- |
@@ -170,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3310-remove-methods-from-project](https://github.com/UNKNOWNAR/LeetCode/tree/master/3310-remove-methods-from-project) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3924-minimum-threshold-path-with-limited-heavy-edges](https://github.com/UNKNOWNAR/LeetCode/tree/master/3924-minimum-threshold-path-with-limited-heavy-edges) |
 ## Shortest Path
 |  |
 | ------- |
