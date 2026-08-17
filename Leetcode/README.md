@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/UNKNOWNAR/LeetCode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3731-find-missing-elements](https://github.com/UNKNOWNAR/LeetCode/tree/master/3731-find-missing-elements) |
 | [3921-score-validator](https://github.com/UNKNOWNAR/LeetCode/tree/master/3921-score-validator) |
+| [3923-minimum-generations-to-target-point](https://github.com/UNKNOWNAR/LeetCode/tree/master/3923-minimum-generations-to-target-point) |
 ## Binary Search
 |  |
 | ------- |
@@ -266,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3606-coupon-code-validator](https://github.com/UNKNOWNAR/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3731-find-missing-elements](https://github.com/UNKNOWNAR/LeetCode/tree/master/3731-find-missing-elements) |
+| [3923-minimum-generations-to-target-point](https://github.com/UNKNOWNAR/LeetCode/tree/master/3923-minimum-generations-to-target-point) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -388,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/UNKNOWNAR/LeetCode/tree/master/0735-asteroid-collision) |
 | [0749-contain-virus](https://github.com/UNKNOWNAR/LeetCode/tree/master/0749-contain-virus) |
 | [3921-score-validator](https://github.com/UNKNOWNAR/LeetCode/tree/master/3921-score-validator) |
+| [3923-minimum-generations-to-target-point](https://github.com/UNKNOWNAR/LeetCode/tree/master/3923-minimum-generations-to-target-point) |
 ## Stack
 |  |
 | ------- |
