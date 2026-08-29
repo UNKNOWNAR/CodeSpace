@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/UNKNOWNAR/LeetCode/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/UNKNOWNAR/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0049-group-anagrams](https://github.com/UNKNOWNAR/LeetCode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/UNKNOWNAR/LeetCode/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0084-largest-rectangle-in-histogram](https://github.com/UNKNOWNAR/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/UNKNOWNAR/LeetCode/tree/master/0049-group-anagrams) |
 | [0628-maximum-product-of-three-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1288-remove-covered-intervals](https://github.com/UNKNOWNAR/LeetCode/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1331-rank-transform-of-an-array) |
@@ -235,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/UNKNOWNAR/LeetCode/tree/master/0049-group-anagrams) |
 | [0091-decode-ways](https://github.com/UNKNOWNAR/LeetCode/tree/master/0091-decode-ways) |
 | [0126-word-ladder-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/UNKNOWNAR/LeetCode/tree/master/0127-word-ladder) |
@@ -273,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/UNKNOWNAR/LeetCode/tree/master/0049-group-anagrams) |
 | [0126-word-ladder-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/UNKNOWNAR/LeetCode/tree/master/0127-word-ladder) |
 | [0146-lru-cache](https://github.com/UNKNOWNAR/LeetCode/tree/master/0146-lru-cache) |
