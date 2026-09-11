@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1872-stone-game-viii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/UNKNOWNAR/LeetCode/tree/master/2029-stone-game-ix) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/2091-removing-minimum-and-maximum-from-array) |
+| [2094-finding-3-digit-even-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 | [2104-sum-of-subarray-ranges](https://github.com/UNKNOWNAR/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
 | [2126-destroying-asteroids](https://github.com/UNKNOWNAR/LeetCode/tree/master/2126-destroying-asteroids) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/UNKNOWNAR/LeetCode/tree/master/2300-successful-pairs-of-spells-and-potions) |
@@ -220,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1552-magnetic-force-between-two-balls](https://github.com/UNKNOWNAR/LeetCode/tree/master/1552-magnetic-force-between-two-balls) |
+| [2094-finding-3-digit-even-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 | [2126-destroying-asteroids](https://github.com/UNKNOWNAR/LeetCode/tree/master/2126-destroying-asteroids) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/UNKNOWNAR/LeetCode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/UNKNOWNAR/LeetCode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -319,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/UNKNOWNAR/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1331-rank-transform-of-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1488-avoid-flood-in-the-city](https://github.com/UNKNOWNAR/LeetCode/tree/master/1488-avoid-flood-in-the-city) |
+| [2094-finding-3-digit-even-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/UNKNOWNAR/LeetCode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -408,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [2094-finding-3-digit-even-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/UNKNOWNAR/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
@@ -462,6 +466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/UNKNOWNAR/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/UNKNOWNAR/LeetCode/tree/master/0224-basic-calculator) |
 | [0486-predict-the-winner](https://github.com/UNKNOWNAR/LeetCode/tree/master/0486-predict-the-winner) |
+| [2094-finding-3-digit-even-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 ## Game Theory
 |  |
 | ------- |
