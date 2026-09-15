@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/UNKNOWNAR/LeetCode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
+| [3147-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/UNKNOWNAR/LeetCode/tree/master/3147-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/UNKNOWNAR/LeetCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/UNKNOWNAR/LeetCode/tree/master/3471-find-the-largest-almost-missing-integer) |
@@ -315,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1140-stone-game-ii) |
 | [1872-stone-game-viii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1872-stone-game-viii) |
 | [2381-shifting-letters-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/2381-shifting-letters-ii) |
+| [3147-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/UNKNOWNAR/LeetCode/tree/master/3147-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3903-smallest-stable-index-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3904-smallest-stable-index-ii) |
@@ -384,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1563-stone-game-v](https://github.com/UNKNOWNAR/LeetCode/tree/master/1563-stone-game-v) |
 | [1872-stone-game-viii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1872-stone-game-viii) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
+| [3147-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/UNKNOWNAR/LeetCode/tree/master/3147-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/UNKNOWNAR/LeetCode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/UNKNOWNAR/LeetCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
