@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1488-avoid-flood-in-the-city](https://github.com/UNKNOWNAR/LeetCode/tree/master/1488-avoid-flood-in-the-city) |
 | [1552-magnetic-force-between-two-balls](https://github.com/UNKNOWNAR/LeetCode/tree/master/1552-magnetic-force-between-two-balls) |
 | [1563-stone-game-v](https://github.com/UNKNOWNAR/LeetCode/tree/master/1563-stone-game-v) |
+| [1590-make-sum-divisible-by-p](https://github.com/UNKNOWNAR/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
 | [1631-path-with-minimum-effort](https://github.com/UNKNOWNAR/LeetCode/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/UNKNOWNAR/LeetCode/tree/master/1765-map-of-highest-peak) |
 | [1872-stone-game-viii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1872-stone-game-viii) |
@@ -93,6 +94,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/UNKNOWNAR/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/UNKNOWNAR/LeetCode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3606-coupon-code-validator](https://github.com/UNKNOWNAR/LeetCode/tree/master/3606-coupon-code-validator) |
+| [3623-count-number-of-trapezoids-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3623-count-number-of-trapezoids-i) |
+| [3625-count-number-of-trapezoids-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/UNKNOWNAR/LeetCode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3709-design-exam-scores-tracker](https://github.com/UNKNOWNAR/LeetCode/tree/master/3709-design-exam-scores-tracker) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/UNKNOWNAR/LeetCode/tree/master/3718-smallest-missing-multiple-of-k) |
@@ -238,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1288-remove-covered-intervals](https://github.com/UNKNOWNAR/LeetCode/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1552-magnetic-force-between-two-balls](https://github.com/UNKNOWNAR/LeetCode/tree/master/1552-magnetic-force-between-two-balls) |
 | [2094-finding-3-digit-even-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 | [2126-destroying-asteroids](https://github.com/UNKNOWNAR/LeetCode/tree/master/2126-destroying-asteroids) |
@@ -282,6 +286,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/UNKNOWNAR/LeetCode/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
+| [3623-count-number-of-trapezoids-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3623-count-number-of-trapezoids-i) |
+| [3625-count-number-of-trapezoids-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3704-count-no-zero-pairs-that-sum-to-n](https://github.com/UNKNOWNAR/LeetCode/tree/master/3704-count-no-zero-pairs-that-sum-to-n) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -301,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0848-shifting-letters](https://github.com/UNKNOWNAR/LeetCode/tree/master/0848-shifting-letters) |
 | [0940-distinct-subsequences-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/0940-distinct-subsequences-ii) |
 | [1143-longest-common-subsequence](https://github.com/UNKNOWNAR/LeetCode/tree/master/1143-longest-common-subsequence) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1927-sum-game](https://github.com/UNKNOWNAR/LeetCode/tree/master/1927-sum-game) |
 | [2381-shifting-letters-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/2381-shifting-letters-ii) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
@@ -327,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0848-shifting-letters](https://github.com/UNKNOWNAR/LeetCode/tree/master/0848-shifting-letters) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/UNKNOWNAR/LeetCode/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1140-stone-game-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1140-stone-game-ii) |
+| [1590-make-sum-divisible-by-p](https://github.com/UNKNOWNAR/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/UNKNOWNAR/LeetCode/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1872-stone-game-viii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1872-stone-game-viii) |
 | [2381-shifting-letters-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/2381-shifting-letters-ii) |
@@ -352,6 +360,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1488-avoid-flood-in-the-city](https://github.com/UNKNOWNAR/LeetCode/tree/master/1488-avoid-flood-in-the-city) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+| [1590-make-sum-divisible-by-p](https://github.com/UNKNOWNAR/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
 | [2094-finding-3-digit-even-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/UNKNOWNAR/LeetCode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -362,6 +372,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/UNKNOWNAR/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3606-coupon-code-validator](https://github.com/UNKNOWNAR/LeetCode/tree/master/3606-coupon-code-validator) |
+| [3623-count-number-of-trapezoids-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3623-count-number-of-trapezoids-i) |
+| [3625-count-number-of-trapezoids-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/UNKNOWNAR/LeetCode/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/UNKNOWNAR/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3731-find-missing-elements](https://github.com/UNKNOWNAR/LeetCode/tree/master/3731-find-missing-elements) |
@@ -488,6 +500,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/UNKNOWNAR/LeetCode/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [1488-avoid-flood-in-the-city](https://github.com/UNKNOWNAR/LeetCode/tree/master/1488-avoid-flood-in-the-city) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [1927-sum-game](https://github.com/UNKNOWNAR/LeetCode/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/UNKNOWNAR/LeetCode/tree/master/2029-stone-game-ix) |
@@ -682,4 +695,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/UNKNOWNAR/LeetCode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
+## Geometry
+|  |
+| ------- |
+| [3623-count-number-of-trapezoids-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3623-count-number-of-trapezoids-i) |
+| [3625-count-number-of-trapezoids-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3625-count-number-of-trapezoids-ii) |
 <!---LeetCode Topics End-->
