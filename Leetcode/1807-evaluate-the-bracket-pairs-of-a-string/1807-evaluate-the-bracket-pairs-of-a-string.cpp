@@ -1,7 +1,7 @@
 class Solution {
 public:
     string evaluate(string s, vector<vector<string>>& knowledge) {
-        map<string,string> link;
+        unordered_map<string,string> link;
         for(auto x:knowledge)
             link[x[0]] = x[1]; 
         int n = s.size();
