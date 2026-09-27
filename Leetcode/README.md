@@ -415,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/UNKNOWNAR/LeetCode/tree/master/0053-maximum-subarray) |
+| [0191-number-of-1-bits](https://github.com/UNKNOWNAR/LeetCode/tree/master/0191-number-of-1-bits) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -491,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/UNKNOWNAR/LeetCode/tree/master/0136-single-number) |
+| [0191-number-of-1-bits](https://github.com/UNKNOWNAR/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0338-counting-bits](https://github.com/UNKNOWNAR/LeetCode/tree/master/0338-counting-bits) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/UNKNOWNAR/LeetCode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/UNKNOWNAR/LeetCode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
