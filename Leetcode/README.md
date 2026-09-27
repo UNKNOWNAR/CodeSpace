@@ -312,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/UNKNOWNAR/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/UNKNOWNAR/LeetCode/tree/master/0049-group-anagrams) |
 | [0091-decode-ways](https://github.com/UNKNOWNAR/LeetCode/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/UNKNOWNAR/LeetCode/tree/master/0115-distinct-subsequences) |
@@ -370,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/UNKNOWNAR/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/UNKNOWNAR/LeetCode/tree/master/0049-group-anagrams) |
 | [0126-word-ladder-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/UNKNOWNAR/LeetCode/tree/master/0127-word-ladder) |
@@ -614,6 +616,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/UNKNOWNAR/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
