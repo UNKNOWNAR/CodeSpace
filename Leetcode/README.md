@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0084-largest-rectangle-in-histogram](https://github.com/UNKNOWNAR/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/UNKNOWNAR/LeetCode/tree/master/0085-maximal-rectangle) |
+| [0128-longest-consecutive-sequence](https://github.com/UNKNOWNAR/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/UNKNOWNAR/LeetCode/tree/master/0130-surrounded-regions) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/UNKNOWNAR/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/UNKNOWNAR/LeetCode/tree/master/0152-maximum-product-subarray) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/UNKNOWNAR/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/UNKNOWNAR/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/UNKNOWNAR/LeetCode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/UNKNOWNAR/LeetCode/tree/master/0547-number-of-provinces) |
@@ -368,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/UNKNOWNAR/LeetCode/tree/master/0049-group-anagrams) |
 | [0126-word-ladder-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/UNKNOWNAR/LeetCode/tree/master/0127-word-ladder) |
+| [0128-longest-consecutive-sequence](https://github.com/UNKNOWNAR/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0146-lru-cache](https://github.com/UNKNOWNAR/LeetCode/tree/master/0146-lru-cache) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/0496-next-greater-element-i) |
