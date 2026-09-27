@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/UNKNOWNAR/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0128-longest-consecutive-sequence](https://github.com/UNKNOWNAR/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/UNKNOWNAR/LeetCode/tree/master/0130-surrounded-regions) |
+| [0136-single-number](https://github.com/UNKNOWNAR/LeetCode/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/UNKNOWNAR/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/UNKNOWNAR/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/UNKNOWNAR/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -489,6 +490,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/UNKNOWNAR/LeetCode/tree/master/0136-single-number) |
 | [0338-counting-bits](https://github.com/UNKNOWNAR/LeetCode/tree/master/0338-counting-bits) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/UNKNOWNAR/LeetCode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/UNKNOWNAR/LeetCode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
