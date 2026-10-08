@@ -13,9 +13,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0084-largest-rectangle-in-histogram](https://github.com/UNKNOWNAR/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/UNKNOWNAR/LeetCode/tree/master/0085-maximal-rectangle) |
+| [0128-longest-consecutive-sequence](https://github.com/UNKNOWNAR/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/UNKNOWNAR/LeetCode/tree/master/0130-surrounded-regions) |
+| [0136-single-number](https://github.com/UNKNOWNAR/LeetCode/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/UNKNOWNAR/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/UNKNOWNAR/LeetCode/tree/master/0152-maximum-product-subarray) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/UNKNOWNAR/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/UNKNOWNAR/LeetCode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/UNKNOWNAR/LeetCode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
@@ -41,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0848-shifting-letters](https://github.com/UNKNOWNAR/LeetCode/tree/master/0848-shifting-letters) |
 | [0875-koko-eating-bananas](https://github.com/UNKNOWNAR/LeetCode/tree/master/0875-koko-eating-bananas) |
 | [0877-stone-game](https://github.com/UNKNOWNAR/LeetCode/tree/master/0877-stone-game) |
+| [0904-fruit-into-baskets](https://github.com/UNKNOWNAR/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0907-sum-of-subarray-minimums](https://github.com/UNKNOWNAR/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/UNKNOWNAR/LeetCode/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0992-subarrays-with-k-different-integers](https://github.com/UNKNOWNAR/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
@@ -50,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/UNKNOWNAR/LeetCode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1140-stone-game-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1140-stone-game-ii) |
 | [1162-as-far-from-land-as-possible](https://github.com/UNKNOWNAR/LeetCode/tree/master/1162-as-far-from-land-as-possible) |
+| [1248-count-number-of-nice-subarrays](https://github.com/UNKNOWNAR/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/UNKNOWNAR/LeetCode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1288-remove-covered-intervals](https://github.com/UNKNOWNAR/LeetCode/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/UNKNOWNAR/LeetCode/tree/master/1301-number-of-paths-with-max-score) |
@@ -64,13 +69,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1563-stone-game-v](https://github.com/UNKNOWNAR/LeetCode/tree/master/1563-stone-game-v) |
 | [1590-make-sum-divisible-by-p](https://github.com/UNKNOWNAR/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
 | [1631-path-with-minimum-effort](https://github.com/UNKNOWNAR/LeetCode/tree/master/1631-path-with-minimum-effort) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/UNKNOWNAR/LeetCode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1765-map-of-highest-peak](https://github.com/UNKNOWNAR/LeetCode/tree/master/1765-map-of-highest-peak) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1872-stone-game-viii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/UNKNOWNAR/LeetCode/tree/master/2029-stone-game-ix) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2094-finding-3-digit-even-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 | [2104-sum-of-subarray-ranges](https://github.com/UNKNOWNAR/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
 | [2126-destroying-asteroids](https://github.com/UNKNOWNAR/LeetCode/tree/master/2126-destroying-asteroids) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/UNKNOWNAR/LeetCode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/UNKNOWNAR/LeetCode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 | [2381-shifting-letters-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/2381-shifting-letters-ii) |
@@ -92,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3525-find-x-value-of-array-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3525-find-x-value-of-array-ii) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/UNKNOWNAR/LeetCode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/UNKNOWNAR/LeetCode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/UNKNOWNAR/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/UNKNOWNAR/LeetCode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
@@ -109,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/UNKNOWNAR/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0300-longest-increasing-subsequence](https://github.com/UNKNOWNAR/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0410-split-array-largest-sum) |
@@ -122,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1488-avoid-flood-in-the-city](https://github.com/UNKNOWNAR/LeetCode/tree/master/1488-avoid-flood-in-the-city) |
 | [1552-magnetic-force-between-two-balls](https://github.com/UNKNOWNAR/LeetCode/tree/master/1552-magnetic-force-between-two-balls) |
 | [1631-path-with-minimum-effort](https://github.com/UNKNOWNAR/LeetCode/tree/master/1631-path-with-minimum-effort) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/UNKNOWNAR/LeetCode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/UNKNOWNAR/LeetCode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -152,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/UNKNOWNAR/LeetCode/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/UNKNOWNAR/LeetCode/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/UNKNOWNAR/LeetCode/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1096-brace-expansion-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1162-as-far-from-land-as-possible](https://github.com/UNKNOWNAR/LeetCode/tree/master/1162-as-far-from-land-as-possible) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/UNKNOWNAR/LeetCode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1631-path-with-minimum-effort](https://github.com/UNKNOWNAR/LeetCode/tree/master/1631-path-with-minimum-effort) |
@@ -168,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/UNKNOWNAR/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/UNKNOWNAR/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/UNKNOWNAR/LeetCode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/UNKNOWNAR/LeetCode/tree/master/0547-number-of-provinces) |
@@ -208,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1301-number-of-paths-with-max-score](https://github.com/UNKNOWNAR/LeetCode/tree/master/1301-number-of-paths-with-max-score) |
 | [1631-path-with-minimum-effort](https://github.com/UNKNOWNAR/LeetCode/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/UNKNOWNAR/LeetCode/tree/master/1765-map-of-highest-peak) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/UNKNOWNAR/LeetCode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/3286-find-a-safe-walk-through-a-grid) |
@@ -240,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/UNKNOWNAR/LeetCode/tree/master/0049-group-anagrams) |
 | [0628-maximum-product-of-three-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
+| [1096-brace-expansion-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1288-remove-covered-intervals](https://github.com/UNKNOWNAR/LeetCode/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -270,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0877-stone-game](https://github.com/UNKNOWNAR/LeetCode/tree/master/0877-stone-game) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/UNKNOWNAR/LeetCode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1140-stone-game-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1140-stone-game-ii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/UNKNOWNAR/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/UNKNOWNAR/LeetCode/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1406-stone-game-iii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/UNKNOWNAR/LeetCode/tree/master/1510-stone-game-iv) |
@@ -289,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3525-find-x-value-of-array-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3525-find-x-value-of-array-ii) |
 | [3536-maximum-product-of-two-digits](https://github.com/UNKNOWNAR/LeetCode/tree/master/3536-maximum-product-of-two-digits) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/UNKNOWNAR/LeetCode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/UNKNOWNAR/LeetCode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/UNKNOWNAR/LeetCode/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
@@ -300,6 +317,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/UNKNOWNAR/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0020-valid-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/UNKNOWNAR/LeetCode/tree/master/0049-group-anagrams) |
 | [0091-decode-ways](https://github.com/UNKNOWNAR/LeetCode/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/UNKNOWNAR/LeetCode/tree/master/0115-distinct-subsequences) |
@@ -310,10 +331,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/UNKNOWNAR/LeetCode/tree/master/0402-remove-k-digits) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/0567-permutation-in-string) |
+| [0678-valid-parenthesis-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0848-shifting-letters](https://github.com/UNKNOWNAR/LeetCode/tree/master/0848-shifting-letters) |
+| [0856-score-of-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/0856-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/UNKNOWNAR/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0940-distinct-subsequences-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/0940-distinct-subsequences-ii) |
+| [1096-brace-expansion-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1096-brace-expansion-ii) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/UNKNOWNAR/LeetCode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1143-longest-common-subsequence](https://github.com/UNKNOWNAR/LeetCode/tree/master/1143-longest-common-subsequence) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1927-sum-game](https://github.com/UNKNOWNAR/LeetCode/tree/master/1927-sum-game) |
 | [2381-shifting-letters-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/2381-shifting-letters-ii) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
@@ -341,8 +370,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0848-shifting-letters](https://github.com/UNKNOWNAR/LeetCode/tree/master/0848-shifting-letters) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/UNKNOWNAR/LeetCode/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1140-stone-game-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1140-stone-game-ii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/UNKNOWNAR/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1590-make-sum-divisible-by-p](https://github.com/UNKNOWNAR/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/UNKNOWNAR/LeetCode/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/UNKNOWNAR/LeetCode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1872-stone-game-viii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1872-stone-game-viii) |
 | [2381-shifting-letters-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/2381-shifting-letters-ii) |
 | [3147-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/UNKNOWNAR/LeetCode/tree/master/3147-taking-maximum-energy-from-the-mystic-dungeon) |
@@ -354,22 +385,29 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/UNKNOWNAR/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/UNKNOWNAR/LeetCode/tree/master/0049-group-anagrams) |
 | [0126-word-ladder-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/UNKNOWNAR/LeetCode/tree/master/0127-word-ladder) |
+| [0128-longest-consecutive-sequence](https://github.com/UNKNOWNAR/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0146-lru-cache](https://github.com/UNKNOWNAR/LeetCode/tree/master/0146-lru-cache) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/UNKNOWNAR/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/0567-permutation-in-string) |
+| [0904-fruit-into-baskets](https://github.com/UNKNOWNAR/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/UNKNOWNAR/LeetCode/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0992-subarrays-with-k-different-integers](https://github.com/UNKNOWNAR/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/UNKNOWNAR/LeetCode/tree/master/1015-smallest-integer-divisible-by-k) |
+| [1096-brace-expansion-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1096-brace-expansion-ii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/UNKNOWNAR/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1331-rank-transform-of-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1488-avoid-flood-in-the-city](https://github.com/UNKNOWNAR/LeetCode/tree/master/1488-avoid-flood-in-the-city) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1590-make-sum-divisible-by-p](https://github.com/UNKNOWNAR/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/UNKNOWNAR/LeetCode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [2094-finding-3-digit-even-numbers](https://github.com/UNKNOWNAR/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/UNKNOWNAR/LeetCode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -390,9 +428,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/UNKNOWNAR/LeetCode/tree/master/0053-maximum-subarray) |
+| [0191-number-of-1-bits](https://github.com/UNKNOWNAR/LeetCode/tree/master/0191-number-of-1-bits) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/UNKNOWNAR/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/UNKNOWNAR/LeetCode/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0064-minimum-path-sum) |
@@ -406,10 +447,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0312-burst-balloons](https://github.com/UNKNOWNAR/LeetCode/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/UNKNOWNAR/LeetCode/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/UNKNOWNAR/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0338-counting-bits](https://github.com/UNKNOWNAR/LeetCode/tree/master/0338-counting-bits) |
 | [0410-split-array-largest-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0486-predict-the-winner](https://github.com/UNKNOWNAR/LeetCode/tree/master/0486-predict-the-winner) |
 | [0542-01-matrix](https://github.com/UNKNOWNAR/LeetCode/tree/master/0542-01-matrix) |
+| [0678-valid-parenthesis-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/UNKNOWNAR/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0877-stone-game](https://github.com/UNKNOWNAR/LeetCode/tree/master/0877-stone-game) |
 | [0907-sum-of-subarray-minimums](https://github.com/UNKNOWNAR/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
@@ -425,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1563-stone-game-v](https://github.com/UNKNOWNAR/LeetCode/tree/master/1563-stone-game-v) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/UNKNOWNAR/LeetCode/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1872-stone-game-viii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1872-stone-game-viii) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/UNKNOWNAR/LeetCode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3147-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/UNKNOWNAR/LeetCode/tree/master/3147-taking-maximum-energy-from-the-mystic-dungeon) |
@@ -464,6 +508,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/UNKNOWNAR/LeetCode/tree/master/0136-single-number) |
+| [0191-number-of-1-bits](https://github.com/UNKNOWNAR/LeetCode/tree/master/0191-number-of-1-bits) |
+| [0338-counting-bits](https://github.com/UNKNOWNAR/LeetCode/tree/master/0338-counting-bits) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/UNKNOWNAR/LeetCode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/UNKNOWNAR/LeetCode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3513-number-of-unique-xor-triplets-i) |
@@ -491,7 +538,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/0022-generate-parentheses) |
 | [0126-word-ladder-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/0126-word-ladder-ii) |
+| [1096-brace-expansion-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Counting Sort
 |  |
@@ -508,6 +557,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/UNKNOWNAR/LeetCode/tree/master/0011-container-with-most-water) |
 | [0402-remove-k-digits](https://github.com/UNKNOWNAR/LeetCode/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0410-split-array-largest-sum) |
+| [0678-valid-parenthesis-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/0678-valid-parenthesis-string) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/UNKNOWNAR/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1488-avoid-flood-in-the-city](https://github.com/UNKNOWNAR/LeetCode/tree/master/1488-avoid-flood-in-the-city) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
@@ -558,6 +609,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/UNKNOWNAR/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/UNKNOWNAR/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/UNKNOWNAR/LeetCode/tree/master/0085-maximal-rectangle) |
@@ -567,10 +620,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/UNKNOWNAR/LeetCode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/0503-next-greater-element-ii) |
+| [0678-valid-parenthesis-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/UNKNOWNAR/LeetCode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/UNKNOWNAR/LeetCode/tree/master/0739-daily-temperatures) |
+| [0856-score-of-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/0856-score-of-parentheses) |
 | [0901-online-stock-span](https://github.com/UNKNOWNAR/LeetCode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/UNKNOWNAR/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/UNKNOWNAR/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [1096-brace-expansion-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1096-brace-expansion-ii) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/UNKNOWNAR/LeetCode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [2104-sum-of-subarray-ranges](https://github.com/UNKNOWNAR/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
 ## Monotonic Stack
 |  |
@@ -588,13 +648,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/UNKNOWNAR/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/UNKNOWNAR/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/0567-permutation-in-string) |
+| [0904-fruit-into-baskets](https://github.com/UNKNOWNAR/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0992-subarrays-with-k-different-integers](https://github.com/UNKNOWNAR/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
+| [1248-count-number-of-nice-subarrays](https://github.com/UNKNOWNAR/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/UNKNOWNAR/LeetCode/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/UNKNOWNAR/LeetCode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/UNKNOWNAR/LeetCode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/UNKNOWNAR/LeetCode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
@@ -604,6 +668,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/UNKNOWNAR/LeetCode/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/UNKNOWNAR/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/UNKNOWNAR/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0567-permutation-in-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/0567-permutation-in-string) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/UNKNOWNAR/LeetCode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
@@ -719,4 +784,42 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3525-find-x-value-of-array-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3525-find-x-value-of-array-ii) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/0032-longest-valid-parentheses) |
+| [0678-valid-parenthesis-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/0678-valid-parenthesis-string) |
+| [0856-score-of-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/0856-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/UNKNOWNAR/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/UNKNOWNAR/LeetCode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/UNKNOWNAR/LeetCode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
+## Database
+|  |
+| ------- |
+| [0197-rising-temperature](https://github.com/UNKNOWNAR/LeetCode/tree/master/0197-rising-temperature) |
+| [0577-employee-bonus](https://github.com/UNKNOWNAR/LeetCode/tree/master/0577-employee-bonus) |
+| [0584-find-customer-referee](https://github.com/UNKNOWNAR/LeetCode/tree/master/0584-find-customer-referee) |
+| [0595-big-countries](https://github.com/UNKNOWNAR/LeetCode/tree/master/0595-big-countries) |
+| [0596-classes-with-at-least-5-students](https://github.com/UNKNOWNAR/LeetCode/tree/master/0596-classes-with-at-least-5-students) |
+| [0619-biggest-single-number](https://github.com/UNKNOWNAR/LeetCode/tree/master/0619-biggest-single-number) |
+| [0620-not-boring-movies](https://github.com/UNKNOWNAR/LeetCode/tree/master/0620-not-boring-movies) |
+| [1068-product-sales-analysis-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/1068-product-sales-analysis-i) |
+| [1075-project-employees-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/1075-project-employees-i) |
+| [1141-user-activity-for-the-past-30-days-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/1141-user-activity-for-the-past-30-days-i) |
+| [1148-article-views-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/1148-article-views-i) |
+| [1211-queries-quality-and-percentage](https://github.com/UNKNOWNAR/LeetCode/tree/master/1211-queries-quality-and-percentage) |
+| [1251-average-selling-price](https://github.com/UNKNOWNAR/LeetCode/tree/master/1251-average-selling-price) |
+| [1280-students-and-examinations](https://github.com/UNKNOWNAR/LeetCode/tree/master/1280-students-and-examinations) |
+| [1378-replace-employee-id-with-the-unique-identifier](https://github.com/UNKNOWNAR/LeetCode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
+| [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/UNKNOWNAR/LeetCode/tree/master/1581-customer-who-visited-but-did-not-make-any-transactions) |
+| [1633-percentage-of-users-attended-a-contest](https://github.com/UNKNOWNAR/LeetCode/tree/master/1633-percentage-of-users-attended-a-contest) |
+| [1661-average-time-of-process-per-machine](https://github.com/UNKNOWNAR/LeetCode/tree/master/1661-average-time-of-process-per-machine) |
+| [1683-invalid-tweets](https://github.com/UNKNOWNAR/LeetCode/tree/master/1683-invalid-tweets) |
+| [1729-find-followers-count](https://github.com/UNKNOWNAR/LeetCode/tree/master/1729-find-followers-count) |
+| [1757-recyclable-and-low-fat-products](https://github.com/UNKNOWNAR/LeetCode/tree/master/1757-recyclable-and-low-fat-products) |
+| [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/UNKNOWNAR/LeetCode/tree/master/2356-number-of-unique-subjects-taught-by-each-teacher) |
 <!---LeetCode Topics End-->
