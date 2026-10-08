@@ -2,21 +2,23 @@
 using namespace std;
 #define fast_io ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
 #define ll long long
-#define pb push_back
 #define all(v) v.begin(), v.end()
 #define endl '\n'
 void solve() {
-    ll n;
-    cin>>n;   
-    for(ll i=2;i*i<=n;i++){
-        if(n%i==0){
-            ll k = n/i;
-            cout<<k<<" "<<n-k<<endl;
-            return;
+    int n,x,m;
+    cin>>n>>x>>m;
+    ll l=x,r=x;
+    for(int i=0;i<m;i++){
+        ll a,b;
+        cin>>a>>b;
+        if(a<=r&&b>=l){
+            l = min(a,l);
+            r = max(b,r);
         }
     }
-    cout<<1<<" "<<n-1<<endl;
+    cout<<r-l+1<<endl;
 }
+
 int main() {
     fast_io; 
     int t;

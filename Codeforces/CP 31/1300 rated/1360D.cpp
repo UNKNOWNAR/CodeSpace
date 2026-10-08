@@ -6,17 +6,26 @@ using namespace std;
 #define all(v) v.begin(), v.end()
 #define endl '\n'
 void solve() {
-    ll n;
-    cin>>n;   
+    ll n,k;
+    cin>>n>>k;
+    if(n<=k){
+        cout<<1<<endl;
+        return;
+    }
+    ll ans = n;
     for(ll i=2;i*i<=n;i++){
         if(n%i==0){
-            ll k = n/i;
-            cout<<k<<" "<<n-k<<endl;
-            return;
+            ll x = n/i;
+            if(k>=i)
+                ans = min(ans,x); 
+            if(k>=x)
+                ans = min(ans,i);
         }
     }
-    cout<<1<<" "<<n-1<<endl;
+    cout<<ans<<endl;
+    
 }
+
 int main() {
     fast_io; 
     int t;
