@@ -20,34 +20,27 @@ int mod = 1e9+7;
 void solve(){
     int n;
     cin>>n;
-    vi arr(n);
-    int yas = 0;
-    for(auto &x:arr){
-        cin>>x;
-        yas += x;
+    vi a(n),b(n),c(n);
+    map<int,int> mp;
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+        mp[a[i]] = i;
     }
-    int max_1 = 0,curr_sum = 0;
-    for(int i=0;i<n-1;i++){
-        curr_sum += arr[i];
-        max_1 = max(max_1,curr_sum);
-        if(curr_sum<0)
-            curr_sum = 0;
+    for(int i=0;i<n;i++){
+        cin>>b[i];
+        c[mp[b[i]]] = i;
     }
-    int max_2 = arr[1];
-    curr_sum = 0;
+    int mx = c[0],count = 0;
     for(int i=1;i<n;i++){
-        curr_sum += arr[i];
-        max_2 = max(max_2,curr_sum);
-        if(curr_sum<0)
-            curr_sum = 0;
+        if(c[i]<mx) count++;
+        mx = max(mx,c[i]);
     }
-    if(max_1>=yas||max_2>=yas) no; else yes;
+    cout<<count;
 }
 
 signed main(){
     fastIO();
     int tt=1;
-    cin>>tt;
     while(tt--) {
         solve();
         nl;
