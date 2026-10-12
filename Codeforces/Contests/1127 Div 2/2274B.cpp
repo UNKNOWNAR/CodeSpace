@@ -26,14 +26,13 @@ void soln(){
     for(int i = 0; i < n; i++){
         int best = a[i] + max({maxS, -minS, (int)0});
         ans = max(ans, best);
-        int nMax = max({2*maxS+a[i], 2*minS+a[i], a[i], maxS+a[i], minS+a[i]});
-        int nMin = min({2*maxS+a[i], 2*minS+a[i], a[i], maxS+a[i], minS+a[i]});
+        int nMax = max({2*maxS+a[i], a[i], maxS+a[i]});
+        int nMin = min({2*minS+a[i], a[i], minS+a[i]});
         maxS = nMax;
         minS = nMin;
     }
     cout << ans;
 }
-
 signed main(){
     fastIO();
     int tt=1;
