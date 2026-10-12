@@ -1,16 +1,18 @@
 class Solution {
 public:
     vector<int> maxDepthAfterSplit(string seq) {
-        int d = 0;
-        vector<int> ans;
-        for (char& c : seq)
-            if (c == '(') {
-                ++d;
-                ans.push_back(d % 2);
-            } else {
-                ans.push_back(d % 2);
-                --d;
+        int n = seq.size(),depth = 0;
+        vector<int> ans(n);
+        for(int i=0;i<n;i++){
+            if(seq[i]=='('){
+                depth++;
+                ans[i] = (depth&1)?0:1;
             }
+            else{
+                ans[i] = (depth&1)?0:1;
+                depth--;
+            }
+        }
         return ans;
     }
 };
