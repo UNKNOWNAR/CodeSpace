@@ -16,25 +16,27 @@ using namespace std;
 #define yes cout<<"YES"
 #define inf LLONG_MAX
 int mod = 1e9+7;
+
 void solve(){
-    int n, k;
-    cin >> n >> k;
-    vi count(n + 2, 0);
-    for(int i = 0; i < n; i++){
+    int n,k;
+    cin>>n>>k;
+    map<int,int> cnt;
+    for(int i=0;i<n;i++){
         int x;
-        cin >> x;
-        if(x <= n + 1) 
-            count[x]++;
+        cin>>x;
+        cnt[x]++;
     }
-    for(int i = 0; i <= n + 1; i++){
-        if(count[i] < 2 * k){
-            if(count[i] == 2 * k - 1)
-                cout << "YES";
-            else 
-                cout << "NO";
+    for(int x=0;x<=2*1e5;x++){
+        if((!cnt[x])||(cnt[x]<2*k-1)){
+            no;
+            return;
+        }
+        else if(cnt[x]==2*k-1){
+            yes;
             return;
         }
     }
+    no;
 }
 
 signed main(){
