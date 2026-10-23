@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3606-coupon-code-validator](https://github.com/UNKNOWNAR/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3623-count-number-of-trapezoids-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3625-count-number-of-trapezoids-ii) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/UNKNOWNAR/LeetCode/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/UNKNOWNAR/LeetCode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3709-design-exam-scores-tracker](https://github.com/UNKNOWNAR/LeetCode/tree/master/3709-design-exam-scores-tracker) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/UNKNOWNAR/LeetCode/tree/master/3718-smallest-missing-multiple-of-k) |
@@ -538,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/UNKNOWNAR/LeetCode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/UNKNOWNAR/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/UNKNOWNAR/LeetCode/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/UNKNOWNAR/LeetCode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Enumeration
 |  |
