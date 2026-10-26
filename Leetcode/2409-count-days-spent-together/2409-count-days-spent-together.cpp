@@ -1,13 +1,21 @@
 class Solution {
 public:
-    int countDaysTogether(string a, string b, string c, string d) {
-        return max(0, min(f(b), f(d)) - max(f(a), f(c)) + 1);
-    }
-
-    int f(auto& s) {
-        int m = (s[0] - '0') * 10 + (s[1] - '0');
-        int q = (s[3] - '0') * 10 + (s[4] - '0');
-
-        return (275 * m) / 9 - 2 * ((m + 9) / 12) + q - 30;
-    }
+    int findDay(string date,vector<int>& cumMonth){
+        int month = stoi(date.substr(0,2));
+        int days = stoi(date.substr(3));
+        return cumMonth[month-1]+days;
+    } 
+    int countDaysTogether(string arriveAlice, string leaveAlice, string arriveBob, string leaveBob) {
+        vector<int> monthDays = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        vector<int> cumMonth(13,0);
+        cumMonth[1] = 31;
+        for(int i=2;i<=12;i++)
+            cumMonth[i] = cumMonth[i-1]+monthDays[i-1];
+        int arriveAliceDay = findDay(arriveAlice,cumMonth);
+        int leaveAliceDay = findDay(leaveAlice,cumMonth);
+        int arriveBobDay = findDay(arriveBob,cumMonth);
+        int leaveBobDay = findDay(leaveBob,cumMonth);
+        int overlap = min(leaveAliceDay,leaveBobDay)-max(arriveAliceDay,arriveBobDay)+1;
+        return overlap<0?0:overlap;
+    }
 };
