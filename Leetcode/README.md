@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3718-smallest-missing-multiple-of-k](https://github.com/UNKNOWNAR/LeetCode/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/UNKNOWNAR/LeetCode/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3731-find-missing-elements](https://github.com/UNKNOWNAR/LeetCode/tree/master/3731-find-missing-elements) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/UNKNOWNAR/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [3886-sum-of-sortable-integers](https://github.com/UNKNOWNAR/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 | [3903-smallest-stable-index-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3903-smallest-stable-index-i) |
@@ -392,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/UNKNOWNAR/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/UNKNOWNAR/LeetCode/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/UNKNOWNAR/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3921-score-validator](https://github.com/UNKNOWNAR/LeetCode/tree/master/3921-score-validator) |
 | [3922-minimum-flips-to-make-binary-string-coherent](https://github.com/UNKNOWNAR/LeetCode/tree/master/3922-minimum-flips-to-make-binary-string-coherent) |
 ## Prefix Sum
@@ -467,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/UNKNOWNAR/LeetCode/tree/master/0053-maximum-subarray) |
 | [0191-number-of-1-bits](https://github.com/UNKNOWNAR/LeetCode/tree/master/0191-number-of-1-bits) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/UNKNOWNAR/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -546,6 +549,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/UNKNOWNAR/LeetCode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/UNKNOWNAR/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -562,6 +566,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/UNKNOWNAR/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/UNKNOWNAR/LeetCode/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/UNKNOWNAR/LeetCode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/UNKNOWNAR/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Enumeration
 |  |
@@ -807,6 +812,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2467-most-profitable-path-in-a-tree](https://github.com/UNKNOWNAR/LeetCode/tree/master/2467-most-profitable-path-in-a-tree) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/UNKNOWNAR/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Binary Lifting
 |  |
 | ------- |
@@ -839,6 +845,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [3525-find-x-value-of-array-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3525-find-x-value-of-array-ii) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/UNKNOWNAR/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Bracket Sequences
 |  |
 | ------- |
@@ -886,4 +893,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/UNKNOWNAR/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 <!---LeetCode Topics End-->
