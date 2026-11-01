@@ -8,7 +8,7 @@ using namespace std;
 #define vvi vector<vector<int>>
 #define pii pair<int,int>
 #define pb push_back
-#define all(v) v.begin(),v.end()
+#define all(v) v.rbegin(),v.rend()
 #define sz(x) ((int)(x).size())
 #define F first
 #define S second
@@ -16,37 +16,32 @@ using namespace std;
 #define yes cout<<"YES"
 #define inf LLONG_MAX
 int mod = 1e9+7;
-
+bool check(int k,int h,vi arr){
+    int i = 0;
+    for(int i=0;i<k;i+=2){
+        h -= arr[i];
+        if(h<0)
+            return false;
+    }
+    return true;
+}
 void solve(){
     int n,h;
     cin>>n>>h;
     vi arr(n);
     for(auto &x:arr)
         cin>>x;
-    int low = 0,high = n-1;
-    int ans = 0;
+    int low = 1,high = n;
     while(low<=high){
-        int mid = (low+high)>>1;
-        vi v;
-        for(int i=0;i<=mid;i++)
-            v.pb(arr[i]);
-        sort(all(v));
-        int height = 0;
-        int p = mid;
-        while(p>=0){
-            height += v[p];
-            if(height>h)
-                break;
-            p-=2;
-        }
-        if(height<=h){
-            ans = mid+1;
-            low = mid+1;
-        }
-        else
-            high = mid-1;
+        int k = low + (high-low)/2;
+        vi temp(arr.begin(),arr.begin()+k);
+        sort(all(temp));
+        if(check(k,h,temp))
+            low = k+1;
+        else 
+            high = k-1;
     }
-    cout<<ans;
+    cout<<high;
 }
 
 signed main(){
