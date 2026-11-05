@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1301-number-of-paths-with-max-score](https://github.com/UNKNOWNAR/LeetCode/tree/master/1301-number-of-paths-with-max-score) |
 | [1331-rank-transform-of-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/UNKNOWNAR/LeetCode/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/UNKNOWNAR/LeetCode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1406-stone-game-iii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/UNKNOWNAR/LeetCode/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/UNKNOWNAR/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/UNKNOWNAR/LeetCode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/UNKNOWNAR/LeetCode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/UNKNOWNAR/LeetCode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/UNKNOWNAR/LeetCode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/UNKNOWNAR/LeetCode/tree/master/1483-kth-ancestor-of-a-tree-node) |
@@ -292,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1096-brace-expansion-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1288-remove-covered-intervals](https://github.com/UNKNOWNAR/LeetCode/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1331-rank-transform-of-an-array) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/UNKNOWNAR/LeetCode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/UNKNOWNAR/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1552-magnetic-force-between-two-balls](https://github.com/UNKNOWNAR/LeetCode/tree/master/1552-magnetic-force-between-two-balls) |
@@ -748,6 +751,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/UNKNOWNAR/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/UNKNOWNAR/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0567-permutation-in-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/0567-permutation-in-string) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/UNKNOWNAR/LeetCode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/UNKNOWNAR/LeetCode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3186-maximum-total-damage-with-spell-casting](https://github.com/UNKNOWNAR/LeetCode/tree/master/3186-maximum-total-damage-with-spell-casting) |
