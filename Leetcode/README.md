@@ -411,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/UNKNOWNAR/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1927-sum-game](https://github.com/UNKNOWNAR/LeetCode/tree/master/1927-sum-game) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2381-shifting-letters-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/2381-shifting-letters-ii) |
 | [2409-count-days-spent-together](https://github.com/UNKNOWNAR/LeetCode/tree/master/2409-count-days-spent-together) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
@@ -703,6 +704,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0735-asteroid-collision](https://github.com/UNKNOWNAR/LeetCode/tree/master/0735-asteroid-collision) |
 | [0749-contain-virus](https://github.com/UNKNOWNAR/LeetCode/tree/master/0749-contain-virus) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3498-reverse-degree-of-a-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/3498-reverse-degree-of-a-string) |
 | [3921-score-validator](https://github.com/UNKNOWNAR/LeetCode/tree/master/3921-score-validator) |
