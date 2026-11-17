@@ -416,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2409-count-days-spent-together](https://github.com/UNKNOWNAR/LeetCode/tree/master/2409-count-days-spent-together) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/UNKNOWNAR/LeetCode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/UNKNOWNAR/LeetCode/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/UNKNOWNAR/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/UNKNOWNAR/LeetCode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/UNKNOWNAR/LeetCode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
@@ -552,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/UNKNOWNAR/LeetCode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/UNKNOWNAR/LeetCode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/UNKNOWNAR/LeetCode/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [3147-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/UNKNOWNAR/LeetCode/tree/master/3147-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3186-maximum-total-damage-with-spell-casting](https://github.com/UNKNOWNAR/LeetCode/tree/master/3186-maximum-total-damage-with-spell-casting) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/UNKNOWNAR/LeetCode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -784,6 +786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/UNKNOWNAR/LeetCode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/UNKNOWNAR/LeetCode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/UNKNOWNAR/LeetCode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/UNKNOWNAR/LeetCode/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [3186-maximum-total-damage-with-spell-casting](https://github.com/UNKNOWNAR/LeetCode/tree/master/3186-maximum-total-damage-with-spell-casting) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/UNKNOWNAR/LeetCode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/UNKNOWNAR/LeetCode/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
