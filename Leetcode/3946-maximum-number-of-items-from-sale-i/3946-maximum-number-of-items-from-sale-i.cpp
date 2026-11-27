@@ -1,37 +1,32 @@
 class Solution {
-    int minPrice,n;
-    vector<vector<int>> memo;
 public:
-    int solve(int indx,vector<pair<int,int>> &arr,int budget){
+    int n;
+    int dp[1000][1501][2];
+    int solve(int indx,int budget,bool flag,vector<vector<int>>& items,vector<int>& divideCount){
         if(indx==n)
-            return budget/minPrice;
-        if (memo[indx][budget] != -1)
-            return memo[indx][budget];
-        int take = 0;
-        if(arr[indx].second<=budget)
-            take = 1+arr[indx].first+solve(indx+1,arr,budget-arr[indx].second);
-        int notTake = solve(indx+1,arr,budget);
-        return memo[indx][budget] = max(take,notTake);
+            return 0;
+        if(dp[indx][budget][flag]!=-1)
+            return dp[indx][budget][flag];
+        int count = 1,countItems = 0;
+        if(budget>=items[indx][1]){//take
+            countItems = max(countItems,1+(!flag?divideCount[indx]:0)+max(solve(indx+1,budget-items[indx][1],false,items,divideCount),solve(indx,budget-items[indx][1],true,items,divideCount)));
+            count++;
+        }
+        countItems = max(countItems,solve(indx+1,budget,false,items,divideCount));//skip
+        return dp[indx][budget][flag] = countItems;
     }
     int maximumSaleItems(vector<vector<int>>& items, int budget) {
-        int copies = 0;
         n = items.size();
-        minPrice = 1e9;
-        vector<pair<int,int>> arr(n);
-        memo.assign(n, vector<int>(budget + 1, -1));
+        memset(dp, -1, sizeof(dp));
+        vector<int> divideCount(n);
         for(int i=0;i<n;i++){
-            int factor = items[i][0];
-            int price = items[i][1];
-            minPrice = min(minPrice,price);
-            int count = 0;
             for(int j=0;j<n;j++){
-                int factor2 = items[j][0];
-                if(i!=j&&factor2%factor==0)
-                    count++;
+                if(i==j)
+                    continue;
+                if(items[j][0]%items[i][0]==0)
+                    divideCount[i]++;
             }
-            arr[i].first = count;
-            arr[i].second = price;
         }
-        return solve(0,arr,budget);
+        return solve(0,budget,false,items,divideCount);;
     }
 };
